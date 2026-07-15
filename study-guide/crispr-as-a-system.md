@@ -20,7 +20,7 @@
 - **1.4a–b:** Compare active Cas9, nickase, and dCas9 while preserving the diversity of CRISPR systems.
 :::
 
-## Chapter Logic
+## Chapter Logic{{attrs[#blk-29gccet1ot0c]}}
 
 CRISPR began as a biological observation: unusual repeated sequences in microbial genomes. The useful explanation is not “bacteria have scissors.” It is an information-flow system. A fragment from an invader can enter a genomic array, the array can be expressed and processed into guides, and a guide-bearing effector can later recognize related nucleic acid. Cas9 is one effector in one part of a much larger CRISPR–Cas landscape.
 
@@ -209,11 +209,11 @@ No. dCas9 can bind without cutting and can obstruct transcription or recruit reg
 - Why does a binding assay not establish nuclease activity?
 - Give one reason a Cas9-centered diagram cannot represent all CRISPR systems.
 
-## Synthesis
+## Synthesis{{attrs[#blk-tbkhdzx9e61t]}}
 
 CRISPR–Cas systems connect inherited sequence records to guide-directed recognition. In a Type II Cas9 example, adaptation can add spacers, transcription and processing generate guide RNAs, and a guide-bearing Cas9 complex interrogates PAM-adjacent DNA through multiple checkpoints. Engineering an sgRNA makes target preference programmable, while nuclease, nickase, and dCas9 variants separate recognition from different actions. Chapter 2 follows what happens after an engineered system enters a cell: delivery, repair, outcome heterogeneity, validation, and decisions.
 
-## Asset and License Record for This Chapter
+## Asset and License Record for This Chapter{{attrs[#blk-3vsvto025g5n]}}
 
 | Asset | Source | License | Attribution |
 |---|---|---|---|
