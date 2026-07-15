@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "sourceId": "wikipedia-cas9",
+      "comparisonMode": "automatic",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Cas9",
+      "retrievedAt": "2026-07-14T15:36:24.158Z",
+      "extractor": {
+        "tool": "wikipedia-action-api",
+        "version": "v0.11.0",
+        "schemaVersion": 1,
+        "sourceFormat": "mediawiki-json-extract"
+      },
+      "originalSha256": "d52d47f4dce0c4277c7a15c3df84f7cf0eecf15ca0b6dc48bbb4449be701cb04",
+      "textSha256": "e95a0ff9e2f31f053b181bfbc61439d929990ca2882d2d03f7eec39bae9b6c23",
+      "wordCount": 4770,
+      "retrieval": {
+        "captureMode": "network",
+        "apiEndpoint": "https://en.wikipedia.org/w/api.php",
+        "requestedUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=extracts%7Crevisions&explaintext=1&rvprop=ids%7Ctimestamp&redirects=1&titles=Cas9&maxlag=5",
+        "finalUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=extracts%7Crevisions&explaintext=1&rvprop=ids%7Ctimestamp&redirects=1&titles=Cas9&maxlag=5",
+        "httpStatus": 200,
+        "contentType": "application/json; charset=utf-8",
+        "retrievedAt": "2026-07-14T15:36:24.158Z",
+        "byteLength": 32352,
+        "tool": {
+          "name": "coursewerk",
+          "version": "v0.11.0"
+        },
+        "pageId": 38570862,
+        "revisionId": 1358956311,
+        "revisionTimestamp": "2026-06-12T02:26:03Z",
+        "title": "Cas9",
+        "resolvedUrl": "https://en.wikipedia.org/wiki/Cas9",
+        "permanentUrl": "https://en.wikipedia.org/w/index.php?title=Cas9&oldid=1358956311"
+      }
+    },
+    {
+      "sourceId": "wikipedia-crispr",
+      "comparisonMode": "automatic",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/CRISPR",
+      "retrievedAt": "2026-07-14T15:36:23.816Z",
+      "extractor": {
+        "tool": "wikipedia-action-api",
+        "version": "v0.11.0",
+        "schemaVersion": 1,
+        "sourceFormat": "mediawiki-json-extract"
+      },
+      "originalSha256": "199bf43614af9073c295fb959000800afffaad80a222ca4b44949600955c4d91",
+      "textSha256": "c0796afde79ab962836f277ca212529b1a88d0401009741e77926d46a0c3933c",
+      "wordCount": 4525,
+      "retrieval": {
+        "captureMode": "network",
+        "apiEndpoint": "https://en.wikipedia.org/w/api.php",
+        "requestedUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=extracts%7Crevisions&explaintext=1&rvprop=ids%7Ctimestamp&redirects=1&titles=CRISPR&maxlag=5",
+        "finalUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=extracts%7Crevisions&explaintext=1&rvprop=ids%7Ctimestamp&redirects=1&titles=CRISPR&maxlag=5",
+        "httpStatus": 200,
+        "contentType": "application/json; charset=utf-8",
+        "retrievedAt": "2026-07-14T15:36:23.816Z",
+        "byteLength": 30354,
+        "tool": {
+          "name": "coursewerk",
+          "version": "v0.11.0"
+        },
+        "pageId": 2146034,
+        "revisionId": 1363126909,
+        "revisionTimestamp": "2026-07-08T05:52:18Z",
+        "title": "CRISPR",
+        "resolvedUrl": "https://en.wikipedia.org/wiki/CRISPR",
+        "permanentUrl": "https://en.wikipedia.org/w/index.php?title=CRISPR&oldid=1363126909"
+      }
+    },
+    {
+      "sourceId": "wikipedia-crispr-gene-editing",
+      "comparisonMode": "automatic",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/CRISPR_gene_editing",
+      "retrievedAt": "2026-07-14T15:36:22.901Z",
+      "extractor": {
+        "tool": "wikipedia-action-api",
+        "version": "v0.11.0",
+        "schemaVersion": 1,
+        "sourceFormat": "mediawiki-json-extract"
+      },
+      "originalSha256": "5f7ebc8e2b2b065beb049161622ca1c1d0929e4952b47e3239f0b44f11c7cb5c",
+      "textSha256": "17b8e62083154ad518d9d8478daade50997a358c97fb64ec3ec6b93a1c8cc17d",
+      "wordCount": 9434,
+      "retrieval": {
+        "captureMode": "network",
+        "apiEndpoint": "https://en.wikipedia.org/w/api.php",
+        "requestedUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=extracts%7Crevisions&explaintext=1&rvprop=ids%7Ctimestamp&redirects=1&titles=CRISPR+gene+editing&maxlag=5",
+        "finalUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=extracts%7Crevisions&explaintext=1&rvprop=ids%7Ctimestamp&redirects=1&titles=CRISPR+gene+editing&maxlag=5",
+        "httpStatus": 200,
+        "contentType": "application/json; charset=utf-8",
+        "retrievedAt": "2026-07-14T15:36:22.901Z",
+        "byteLength": 62963,
+        "tool": {
+          "name": "coursewerk",
+          "version": "v0.11.0"
+        },
+        "pageId": 59990826,
+        "revisionId": 1363447485,
+        "revisionTimestamp": "2026-07-10T06:20:32Z",
+        "title": "CRISPR gene editing",
+        "resolvedUrl": "https://en.wikipedia.org/wiki/CRISPR_gene_editing",
+        "permanentUrl": "https://en.wikipedia.org/w/index.php?title=CRISPR_gene_editing&oldid=1363447485"
+      }
+    },
+    {
+      "sourceId": "wikipedia-dna-repair",
+      "comparisonMode": "automatic",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/DNA_repair",
+      "retrievedAt": "2026-07-14T15:36:25.062Z",
+      "extractor": {
+        "tool": "wikipedia-action-api",
+        "version": "v0.11.0",
+        "schemaVersion": 1,
+        "sourceFormat": "mediawiki-json-extract"
+      },
+      "originalSha256": "34e870e8aa25dc76a52e8d3ec32d0e4948cc9c64b9970de61dc7278468d20818",
+      "textSha256": "f4a27508a29a90d5ff7c8247d1174b57be999de68387fbd657f3551c165cbbb1",
+      "wordCount": 9756,
+      "retrieval": {
+        "captureMode": "network",
+        "apiEndpoint": "https://en.wikipedia.org/w/api.php",
+        "requestedUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=extracts%7Crevisions&explaintext=1&rvprop=ids%7Ctimestamp&redirects=1&titles=DNA+repair&maxlag=5",
+        "finalUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=extracts%7Crevisions&explaintext=1&rvprop=ids%7Ctimestamp&redirects=1&titles=DNA+repair&maxlag=5",
+        "httpStatus": 200,
+        "contentType": "application/json; charset=utf-8",
+        "retrievedAt": "2026-07-14T15:36:25.062Z",
+        "byteLength": 65381,
+        "tool": {
+          "name": "coursewerk",
+          "version": "v0.11.0"
+        },
+        "pageId": 854294,
+        "revisionId": 1354590912,
+        "revisionTimestamp": "2026-05-17T08:09:31Z",
+        "title": "DNA repair",
+        "resolvedUrl": "https://en.wikipedia.org/wiki/DNA_repair",
+        "permanentUrl": "https://en.wikipedia.org/w/index.php?title=DNA_repair&oldid=1354590912"
+      }
+    },
+    {
+      "sourceId": "wikipedia-genome-editing",
+      "comparisonMode": "automatic",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Genome_editing",
+      "retrievedAt": "2026-07-14T15:36:24.530Z",
+      "extractor": {
+        "tool": "wikipedia-action-api",
+        "version": "v0.11.0",
+        "schemaVersion": 1,
+        "sourceFormat": "mediawiki-json-extract"
+      },
+      "originalSha256": "2aced02c575882cdabdf39e08e41df61279bcb542504cf7c90bc91dc25afba36",
+      "textSha256": "ae0cc599fd1db50a4d71319b435bb1048abcd205c0b44b8bcfcb68105227155e",
+      "wordCount": 6340,
+      "retrieval": {
+        "captureMode": "network",
+        "apiEndpoint": "https://en.wikipedia.org/w/api.php",
+        "requestedUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=extracts%7Crevisions&explaintext=1&rvprop=ids%7Ctimestamp&redirects=1&titles=Genome+editing&maxlag=5",
+        "finalUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=extracts%7Crevisions&explaintext=1&rvprop=ids%7Ctimestamp&redirects=1&titles=Genome+editing&maxlag=5",
+        "httpStatus": 200,
+        "contentType": "application/json; charset=utf-8",
+        "retrievedAt": "2026-07-14T15:36:24.530Z",
+        "byteLength": 42839,
+        "tool": {
+          "name": "coursewerk",
+          "version": "v0.11.0"
+        },
+        "pageId": 34930586,
+        "revisionId": 1363447402,
+        "revisionTimestamp": "2026-07-10T06:19:49Z",
+        "title": "Genome editing",
+        "resolvedUrl": "https://en.wikipedia.org/wiki/Genome_editing",
+        "permanentUrl": "https://en.wikipedia.org/w/index.php?title=Genome_editing&oldid=1363447402"
+      }
+    }
+  ]
+}

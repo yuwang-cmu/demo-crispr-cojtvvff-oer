@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 2,
+  "sourceId": "wikipedia-cas9",
+  "sourceBindingSha256": "ae0aacbe5755070e63deb1b0d6b308dfda9541dd68d6003994a8bdaac9be302b",
+  "policyId": "english-wikipedia-text",
+  "evidence": {
+    "url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "snapshot": "metadata/evidence/wikipedia-crispr-gene-editing.html",
+    "sha256": "fc76a0277b4ab7c623a3bbcfd323393dc1a36ddcba39aaf2506552448f251714",
+    "retrieval": {
+      "captureMode": "network",
+      "requestedUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+      "finalUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+      "redirectChain": [],
+      "retrievedAt": "2026-07-14T15:35:37.850Z",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "byteLength": 152376,
+      "tool": {
+        "name": "coursewerk",
+        "version": "v0.11.0"
+      }
+    }
+  },
+  "operator": {
+    "type": "automation",
+    "name": "Coursewerk Demo Builder"
+  },
+  "processUseReview": {
+    "schemaVersion": 1,
+    "scannedAt": "2026-07-14T15:35:37.850Z",
+    "status": "no-notice-detected",
+    "legalEffectDetermined": false,
+    "notices": []
+  },
+  "noticeReviewComplete": true,
+  "policyChecksPassed": true,
+  "status": "cleared",
+  "warnings": [],
+  "blockers": [],
+  "generatedAt": "2026-07-14T15:35:37.850Z"
+}

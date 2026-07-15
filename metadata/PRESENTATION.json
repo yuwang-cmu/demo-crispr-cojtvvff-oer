@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "customRendererTheme": false,
+  "builtInThemes": {
+    "mdhtml": "light-academic-2",
+    "slides": "sage"
+  },
+  "courseVisualIdentity": {
+    "name": "Molecular Workshop",
+    "palette": {
+      "paper": "#f5f1e8",
+      "chlorophyll": "#2f6f5e",
+      "dnaBlue": "#3e6f9e",
+      "editCoral": "#d46a55",
+      "graphite": "#263238"
+    },
+    "application": "Original diagrams use an annotated laboratory-notebook visual language; text carriers use only registered orz built-in themes for reproducible Alembic rendering."
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "reviewer": {
+    "type": "human",
+    "name": "Yu Wang"
+  },
+  "reviewedAt": "2026-07-15",
+  "inspectionMethod": "browser-visual-dom",
+  "attestation": "Yu Wang approved all six current carriers after browser review, including diagrams, tabs, local images, slide layouts and navigation, overflow, keyboard and DOM behavior, and readable alternatives.",
+  "carriers": [
+    {
+      "source": "practice/crispr-as-a-system.md",
+      "carrier": "practice/crispr-as-a-system.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "13069a43a8e8b96c7eafea45e17866afc6cc2cee92147690827552a067b1fb63",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "fdff06b20eda4faeb5f4a89c7082593a57a7da3eff55e88193ed1c3422742a5e"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "practice/editing-genomes.md",
+      "carrier": "practice/editing-genomes.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "3f850f3547ca06070783b41e98be42f8844628fffc1f537d95c3a5a197913ecf",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "e72e4af61b93b9b29a0445a31aecd47495eacc33730ceaefde84a66b3c060b8c"
+      },
+      "localAssetDigests": []
+    },
+    {
+      "source": "slides/crispr-as-a-system.md",
+      "carrier": "slides/crispr-as-a-system.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "3102edc30c0d58e63294c6ba5b3c449399591241d16f1e5c2ae88e56a82993f2",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "fcd7738db575cde3885aed1270564877d5f090e95442d5d1bc3d3b36f38cef3b"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/bacteriophages.jpg",
+          "path": "assets/bacteriophages.jpg",
+          "sha256": "34d79aed0a1ecca1709c2fa535411592e68eca91aa3a3df4d17a92fbb01aff49"
+        },
+        {
+          "reference": "../assets/cas9-checkpoints.svg",
+          "path": "assets/cas9-checkpoints.svg",
+          "sha256": "65cff5650a11b9456fee4f85edb481ab8602cce0b64535c73a465c2bdf1f54fb"
+        },
+        {
+          "reference": "../assets/crispr-locus-memory.svg",
+          "path": "assets/crispr-locus-memory.svg",
+          "sha256": "a5d2d9b3e3e50e241d75bbe91f4147c3433382d954b23d5666d14c45209c48c9"
+        },
+        {
+          "reference": "../assets/targeting-pam.svg",
+          "path": "assets/targeting-pam.svg",
+          "sha256": "92d3c77cd8199248a2029f88a726ce158c27bf982731259890d7c019d718f018"
+        }
+      ]
+    },
+    {
+      "source": "slides/editing-genomes.md",
+      "carrier": "slides/editing-genomes.slides.html",
+      "builder": "orz-slides",
+      "sourceSha256": "cf15d3fc2be417b348c8c81e3a10095cc220a53f84010ac0105c47296e7a2e72",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "552b3a7f47be1752229dd428ed1b54d348ca0709fb9b4c7396539137377f56a4"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/delivery-tradeoffs.svg",
+          "path": "assets/delivery-tradeoffs.svg",
+          "sha256": "c5a3302af834fbea7d55a847646fa57cac1900b8e42d917db2ac9910e0e974fe"
+        },
+        {
+          "reference": "../assets/edit-to-outcome.svg",
+          "path": "assets/edit-to-outcome.svg",
+          "sha256": "c0d6958a47c533eeb480d8f3d2497336230bdfb5a1deb66800dd17e84ad02026"
+        },
+        {
+          "reference": "../assets/evidence-ladder.svg",
+          "path": "assets/evidence-ladder.svg",
+          "sha256": "cd33296bdfd80f7935cb6738b9a8d09b2a7932643e5a456662cfbfa465508fdc"
+        },
+        {
+          "reference": "../assets/loading-dna-gel.jpg",
+          "path": "assets/loading-dna-gel.jpg",
+          "sha256": "ff3d9e2d308ed1eaa6eca044bac3fba01b897e7131fd306b737f62dcb3c9b8c2"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/crispr-as-a-system.md",
+      "carrier": "study-guide/crispr-as-a-system.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "c18c7bac26c8ebbadcd3fb363aa1a3a6c31004dea11d1fadd56392536ccfc7a6",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "a9b0eddd91f5c539099e86a6b095bcd9cf96802f7ce7220b7639ef429692b7a1"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/bacteriophages.jpg",
+          "path": "assets/bacteriophages.jpg",
+          "sha256": "34d79aed0a1ecca1709c2fa535411592e68eca91aa3a3df4d17a92fbb01aff49"
+        },
+        {
+          "reference": "../assets/cas9-checkpoints.svg",
+          "path": "assets/cas9-checkpoints.svg",
+          "sha256": "65cff5650a11b9456fee4f85edb481ab8602cce0b64535c73a465c2bdf1f54fb"
+        },
+        {
+          "reference": "../assets/crispr-locus-memory.svg",
+          "path": "assets/crispr-locus-memory.svg",
+          "sha256": "a5d2d9b3e3e50e241d75bbe91f4147c3433382d954b23d5666d14c45209c48c9"
+        },
+        {
+          "reference": "../assets/targeting-pam.svg",
+          "path": "assets/targeting-pam.svg",
+          "sha256": "92d3c77cd8199248a2029f88a726ce158c27bf982731259890d7c019d718f018"
+        }
+      ]
+    },
+    {
+      "source": "study-guide/editing-genomes.md",
+      "carrier": "study-guide/editing-genomes.md.html",
+      "builder": "orz-mdhtml",
+      "sourceSha256": "d992b33e6f6f505aabb0ea3e271089db3f28a9487dbbbd3bae3db75e6e5b7658",
+      "outputFingerprint": {
+        "algorithm": "sha256",
+        "normalization": "coursewerk-carrier-v1",
+        "value": "1551daa8b38b81e1aeb11f9a76afda755c1ffb9bad34c6979f6cdb421fc160f5"
+      },
+      "localAssetDigests": [
+        {
+          "reference": "../assets/delivery-tradeoffs.svg",
+          "path": "assets/delivery-tradeoffs.svg",
+          "sha256": "c5a3302af834fbea7d55a847646fa57cac1900b8e42d917db2ac9910e0e974fe"
+        },
+        {
+          "reference": "../assets/edit-to-outcome.svg",
+          "path": "assets/edit-to-outcome.svg",
+          "sha256": "c0d6958a47c533eeb480d8f3d2497336230bdfb5a1deb66800dd17e84ad02026"
+        },
+        {
+          "reference": "../assets/electrophoresis-equipment.jpg",
+          "path": "assets/electrophoresis-equipment.jpg",
+          "sha256": "38c520a708111ddf90f880a8bcaba40782eda8f0ffc8f89bee3e804c9c5a7ec3"
+        },
+        {
+          "reference": "../assets/evidence-ladder.svg",
+          "path": "assets/evidence-ladder.svg",
+          "sha256": "cd33296bdfd80f7935cb6738b9a8d09b2a7932643e5a456662cfbfa465508fdc"
+        },
+        {
+          "reference": "../assets/loading-dna-gel.jpg",
+          "path": "assets/loading-dna-gel.jpg",
+          "sha256": "ff3d9e2d308ed1eaa6eca044bac3fba01b897e7131fd306b737f62dcb3c9b8c2"
+        }
+      ]
+    }
+  ]
+}

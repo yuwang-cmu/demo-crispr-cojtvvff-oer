@@ -1,0 +1,1272 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-14T16:02:07.976Z",
+  "components": [
+    {
+      "id": "component:alembic.json",
+      "path": "alembic.json",
+      "type": "manifest",
+      "chapter": null,
+      "hash": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:assessment-support/crispr-as-a-system.md",
+      "path": "assessment-support/crispr-as-a-system.md",
+      "type": "assessment-support",
+      "chapter": "crispr-as-a-system",
+      "hash": "b93aec071847789774fb5c72e21accf0bac9de0367cff1b2ae30c6a07e872910",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:concepts/crispr-as-a-system.md": "cdde47e111b45e4ba13c5db4d8505a045684df5329925bd8addd50ba0550d820",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+        "component:metadata/SOURCE_RECORD.json": "1c93b51394d05a7e21b74c8e70007040cf5dfe7c26dd39a4d2078a070dff4ebc",
+        "component:study-guide/crispr-as-a-system.md": "c18c7bac26c8ebbadcd3fb363aa1a3a6c31004dea11d1fadd56392536ccfc7a6"
+      }
+    },
+    {
+      "id": "component:assessment-support/editing-genomes.md",
+      "path": "assessment-support/editing-genomes.md",
+      "type": "assessment-support",
+      "chapter": "editing-genomes",
+      "hash": "a268918e0a8e0d645d21aa36e72c95c2988e7989fe30eeb68d63e2486621b34f",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:concepts/editing-genomes.md": "4fa200d101492b06e325cad4759d87be578518099e459cb9f53cde30f56e264a",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+        "component:metadata/SOURCE_RECORD.json": "1c93b51394d05a7e21b74c8e70007040cf5dfe7c26dd39a4d2078a070dff4ebc",
+        "component:study-guide/editing-genomes.md": "d992b33e6f6f505aabb0ea3e271089db3f28a9487dbbbd3bae3db75e6e5b7658"
+      }
+    },
+    {
+      "id": "component:assets/bacteriophages.jpg",
+      "path": "assets/bacteriophages.jpg",
+      "type": "asset",
+      "chapter": null,
+      "hash": "34d79aed0a1ecca1709c2fa535411592e68eca91aa3a3df4d17a92fbb01aff49",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:assets/cas9-checkpoints.svg",
+      "path": "assets/cas9-checkpoints.svg",
+      "type": "asset",
+      "chapter": null,
+      "hash": "65cff5650a11b9456fee4f85edb481ab8602cce0b64535c73a465c2bdf1f54fb",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:assets/crispr-locus-memory.svg",
+      "path": "assets/crispr-locus-memory.svg",
+      "type": "asset",
+      "chapter": null,
+      "hash": "a5d2d9b3e3e50e241d75bbe91f4147c3433382d954b23d5666d14c45209c48c9",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:assets/delivery-tradeoffs.svg",
+      "path": "assets/delivery-tradeoffs.svg",
+      "type": "asset",
+      "chapter": null,
+      "hash": "c5a3302af834fbea7d55a847646fa57cac1900b8e42d917db2ac9910e0e974fe",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:assets/edit-to-outcome.svg",
+      "path": "assets/edit-to-outcome.svg",
+      "type": "asset",
+      "chapter": null,
+      "hash": "c0d6958a47c533eeb480d8f3d2497336230bdfb5a1deb66800dd17e84ad02026",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:assets/electrophoresis-equipment.jpg",
+      "path": "assets/electrophoresis-equipment.jpg",
+      "type": "asset",
+      "chapter": null,
+      "hash": "38c520a708111ddf90f880a8bcaba40782eda8f0ffc8f89bee3e804c9c5a7ec3",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:assets/evidence-ladder.svg",
+      "path": "assets/evidence-ladder.svg",
+      "type": "asset",
+      "chapter": null,
+      "hash": "cd33296bdfd80f7935cb6738b9a8d09b2a7932643e5a456662cfbfa465508fdc",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:assets/loading-dna-gel.jpg",
+      "path": "assets/loading-dna-gel.jpg",
+      "type": "asset",
+      "chapter": null,
+      "hash": "ff3d9e2d308ed1eaa6eca044bac3fba01b897e7131fd306b737f62dcb3c9b8c2",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:assets/targeting-pam.svg",
+      "path": "assets/targeting-pam.svg",
+      "type": "asset",
+      "chapter": null,
+      "hash": "92d3c77cd8199248a2029f88a726ce158c27bf982731259890d7c019d718f018",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:concepts/course.md",
+      "path": "concepts/course.md",
+      "type": "concepts",
+      "chapter": null,
+      "hash": "e05fe011dc84703905c1fc1211686f1bf4ce3bdbbfefeed159d2e1f9e954e419",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+        "component:metadata/SOURCE_RECORD.json": "1c93b51394d05a7e21b74c8e70007040cf5dfe7c26dd39a4d2078a070dff4ebc"
+      }
+    },
+    {
+      "id": "component:concepts/crispr-as-a-system.md",
+      "path": "concepts/crispr-as-a-system.md",
+      "type": "concepts",
+      "chapter": "crispr-as-a-system",
+      "hash": "cdde47e111b45e4ba13c5db4d8505a045684df5329925bd8addd50ba0550d820",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:concepts/course.md": "e05fe011dc84703905c1fc1211686f1bf4ce3bdbbfefeed159d2e1f9e954e419",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+        "component:metadata/SOURCE_RECORD.json": "1c93b51394d05a7e21b74c8e70007040cf5dfe7c26dd39a4d2078a070dff4ebc"
+      }
+    },
+    {
+      "id": "component:concepts/editing-genomes.md",
+      "path": "concepts/editing-genomes.md",
+      "type": "concepts",
+      "chapter": "editing-genomes",
+      "hash": "4fa200d101492b06e325cad4759d87be578518099e459cb9f53cde30f56e264a",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:concepts/course.md": "e05fe011dc84703905c1fc1211686f1bf4ce3bdbbfefeed159d2e1f9e954e419",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+        "component:metadata/SOURCE_RECORD.json": "1c93b51394d05a7e21b74c8e70007040cf5dfe7c26dd39a4d2078a070dff4ebc"
+      }
+    },
+    {
+      "id": "component:LICENSE",
+      "path": "LICENSE",
+      "type": "license",
+      "chapter": null,
+      "hash": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:metadata/ATTRIBUTION.md",
+      "path": "metadata/ATTRIBUTION.md",
+      "type": "attribution",
+      "chapter": null,
+      "hash": "0e091e0c0afacadc68474cada6e883075ecc47add061d2a45e9d128d1e57c2cf",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:assets/bacteriophages.jpg": "34d79aed0a1ecca1709c2fa535411592e68eca91aa3a3df4d17a92fbb01aff49",
+        "component:assets/cas9-checkpoints.svg": "65cff5650a11b9456fee4f85edb481ab8602cce0b64535c73a465c2bdf1f54fb",
+        "component:assets/crispr-locus-memory.svg": "a5d2d9b3e3e50e241d75bbe91f4147c3433382d954b23d5666d14c45209c48c9",
+        "component:assets/delivery-tradeoffs.svg": "c5a3302af834fbea7d55a847646fa57cac1900b8e42d917db2ac9910e0e974fe",
+        "component:assets/edit-to-outcome.svg": "c0d6958a47c533eeb480d8f3d2497336230bdfb5a1deb66800dd17e84ad02026",
+        "component:assets/electrophoresis-equipment.jpg": "38c520a708111ddf90f880a8bcaba40782eda8f0ffc8f89bee3e804c9c5a7ec3",
+        "component:assets/evidence-ladder.svg": "cd33296bdfd80f7935cb6738b9a8d09b2a7932643e5a456662cfbfa465508fdc",
+        "component:assets/loading-dna-gel.jpg": "ff3d9e2d308ed1eaa6eca044bac3fba01b897e7131fd306b737f62dcb3c9b8c2",
+        "component:assets/targeting-pam.svg": "92d3c77cd8199248a2029f88a726ce158c27bf982731259890d7c019d718f018",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+        "component:metadata/PROVENANCE.json": "c62ed1cff95e7e82481e85c4fef494d86d7e4662c671197ffa918167c94492bc"
+      }
+    },
+    {
+      "id": "component:metadata/evidence/media-photo-bacteriophages.html",
+      "path": "metadata/evidence/media-photo-bacteriophages.html",
+      "type": "support",
+      "chapter": null,
+      "hash": "931a8d84fa88d82b1014b4a3590c798d52a999e031a7f9c14c7a14b61ceb189a",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:metadata/evidence/media-photo-electrophoresis-equipment.html",
+      "path": "metadata/evidence/media-photo-electrophoresis-equipment.html",
+      "type": "support",
+      "chapter": null,
+      "hash": "8f416f87986030820d35999a70a76510fd86b8819ef85b612804b44b3c70676d",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:metadata/evidence/media-photo-loading-dna-gel.html",
+      "path": "metadata/evidence/media-photo-loading-dna-gel.html",
+      "type": "support",
+      "chapter": null,
+      "hash": "a9f2581bfe81627265b330d5b269461c7a860d3433e599a92f05702ce3518fb2",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:metadata/evidence/wikipedia-crispr-gene-editing.html",
+      "path": "metadata/evidence/wikipedia-crispr-gene-editing.html",
+      "type": "support",
+      "chapter": null,
+      "hash": "fc76a0277b4ab7c623a3bbcfd323393dc1a36ddcba39aaf2506552448f251714",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:metadata/FOUNDATION.json",
+      "path": "metadata/FOUNDATION.json",
+      "type": "foundation",
+      "chapter": null,
+      "hash": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+      "dependencies": {}
+    },
+    {
+      "id": "component:metadata/KEY_FACT_REVIEW.json",
+      "path": "metadata/KEY_FACT_REVIEW.json",
+      "type": "review",
+      "chapter": null,
+      "hash": "ae585d6dc77c825ffd47785a8f4b4ee98da680455cf7593f064e1ebd7a600a48",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:assessment-support/crispr-as-a-system.md": "b93aec071847789774fb5c72e21accf0bac9de0367cff1b2ae30c6a07e872910",
+        "component:assessment-support/editing-genomes.md": "a268918e0a8e0d645d21aa36e72c95c2988e7989fe30eeb68d63e2486621b34f",
+        "component:concepts/course.md": "e05fe011dc84703905c1fc1211686f1bf4ce3bdbbfefeed159d2e1f9e954e419",
+        "component:concepts/crispr-as-a-system.md": "cdde47e111b45e4ba13c5db4d8505a045684df5329925bd8addd50ba0550d820",
+        "component:concepts/editing-genomes.md": "4fa200d101492b06e325cad4759d87be578518099e459cb9f53cde30f56e264a",
+        "component:LICENSE": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2",
+        "component:metadata/ATTRIBUTION.md": "0e091e0c0afacadc68474cada6e883075ecc47add061d2a45e9d128d1e57c2cf",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+        "component:metadata/PROVENANCE.json": "c62ed1cff95e7e82481e85c4fef494d86d7e4662c671197ffa918167c94492bc",
+        "component:metadata/SOURCE_RECORD.json": "1c93b51394d05a7e21b74c8e70007040cf5dfe7c26dd39a4d2078a070dff4ebc",
+        "component:practice/crispr-as-a-system.md": "13069a43a8e8b96c7eafea45e17866afc6cc2cee92147690827552a067b1fb63",
+        "component:practice/editing-genomes.md": "3f850f3547ca06070783b41e98be42f8844628fffc1f537d95c3a5a197913ecf",
+        "component:slides/crispr-as-a-system.md": "3102edc30c0d58e63294c6ba5b3c449399591241d16f1e5c2ae88e56a82993f2",
+        "component:slides/editing-genomes.md": "cf15d3fc2be417b348c8c81e3a10095cc220a53f84010ac0105c47296e7a2e72",
+        "component:study-guide/crispr-as-a-system.md": "c18c7bac26c8ebbadcd3fb363aa1a3a6c31004dea11d1fadd56392536ccfc7a6",
+        "component:study-guide/editing-genomes.md": "d992b33e6f6f505aabb0ea3e271089db3f28a9487dbbbd3bae3db75e6e5b7658"
+      }
+    },
+    {
+      "id": "component:metadata/MEDIA_PLAN.json",
+      "path": "metadata/MEDIA_PLAN.json",
+      "type": "support",
+      "chapter": null,
+      "hash": "97169e691c78f72dda6bdfcfae4fbd9846e37aed8938f7e8036012f39efc6140",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:metadata/preflight/wikipedia-cas9.json",
+      "path": "metadata/preflight/wikipedia-cas9.json",
+      "type": "support",
+      "chapter": null,
+      "hash": "043137342b1b599322eb7a60fc4af7c472dcc41f2a2389afd5def813b8139ab8",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:metadata/preflight/wikipedia-crispr-gene-editing.json",
+      "path": "metadata/preflight/wikipedia-crispr-gene-editing.json",
+      "type": "support",
+      "chapter": null,
+      "hash": "d4a2bcee7728d01766363735d54d540af160cc1fca2e2dc9b238dfbe4052cb95",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:metadata/preflight/wikipedia-crispr.json",
+      "path": "metadata/preflight/wikipedia-crispr.json",
+      "type": "support",
+      "chapter": null,
+      "hash": "6cdba5932e7ea185473df341c27e44687eb335b8d510ba1a24f2afbac3c85e7b",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:metadata/preflight/wikipedia-dna-repair.json",
+      "path": "metadata/preflight/wikipedia-dna-repair.json",
+      "type": "support",
+      "chapter": null,
+      "hash": "6c335adef13df91b0933e148d1f6ccfee9983e1ae0c29aecb294ef79a29a3ccd",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:metadata/preflight/wikipedia-genome-editing.json",
+      "path": "metadata/preflight/wikipedia-genome-editing.json",
+      "type": "support",
+      "chapter": null,
+      "hash": "3bbb4b7ad97b2419a4efe3c2766365bce1cc442aff14eb991f40b96b4c5f9f38",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:metadata/PRESENTATION.json",
+      "path": "metadata/PRESENTATION.json",
+      "type": "support",
+      "chapter": null,
+      "hash": "b91982c06b8b5ff9ea621f48522781fa81dcd09ffe8ff658d79023b45ebb1f93",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:metadata/PROVENANCE.json",
+      "path": "metadata/PROVENANCE.json",
+      "type": "provenance",
+      "chapter": null,
+      "hash": "c62ed1cff95e7e82481e85c4fef494d86d7e4662c671197ffa918167c94492bc",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:metadata/SOURCE_RECORD.json",
+      "path": "metadata/SOURCE_RECORD.json",
+      "type": "source-record",
+      "chapter": null,
+      "hash": "1c93b51394d05a7e21b74c8e70007040cf5dfe7c26dd39a4d2078a070dff4ebc",
+      "dependencies": {
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:metadata/VISUAL_REVIEW.json",
+      "path": "metadata/VISUAL_REVIEW.json",
+      "type": "review",
+      "chapter": null,
+      "hash": "2a108d46872bcc7d7bc41b1fcec9dc9a82c76911cd56a8bf5e754e8edf5d219d",
+      "dependencies": {
+        "component:assets/bacteriophages.jpg": "34d79aed0a1ecca1709c2fa535411592e68eca91aa3a3df4d17a92fbb01aff49",
+        "component:assets/cas9-checkpoints.svg": "65cff5650a11b9456fee4f85edb481ab8602cce0b64535c73a465c2bdf1f54fb",
+        "component:assets/crispr-locus-memory.svg": "a5d2d9b3e3e50e241d75bbe91f4147c3433382d954b23d5666d14c45209c48c9",
+        "component:assets/delivery-tradeoffs.svg": "c5a3302af834fbea7d55a847646fa57cac1900b8e42d917db2ac9910e0e974fe",
+        "component:assets/edit-to-outcome.svg": "c0d6958a47c533eeb480d8f3d2497336230bdfb5a1deb66800dd17e84ad02026",
+        "component:assets/electrophoresis-equipment.jpg": "38c520a708111ddf90f880a8bcaba40782eda8f0ffc8f89bee3e804c9c5a7ec3",
+        "component:assets/evidence-ladder.svg": "cd33296bdfd80f7935cb6738b9a8d09b2a7932643e5a456662cfbfa465508fdc",
+        "component:assets/loading-dna-gel.jpg": "ff3d9e2d308ed1eaa6eca044bac3fba01b897e7131fd306b737f62dcb3c9b8c2",
+        "component:assets/targeting-pam.svg": "92d3c77cd8199248a2029f88a726ce158c27bf982731259890d7c019d718f018",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+        "component:practice/crispr-as-a-system.md": "13069a43a8e8b96c7eafea45e17866afc6cc2cee92147690827552a067b1fb63",
+        "component:practice/editing-genomes.md": "3f850f3547ca06070783b41e98be42f8844628fffc1f537d95c3a5a197913ecf",
+        "component:slides/crispr-as-a-system.md": "3102edc30c0d58e63294c6ba5b3c449399591241d16f1e5c2ae88e56a82993f2",
+        "component:slides/editing-genomes.md": "cf15d3fc2be417b348c8c81e3a10095cc220a53f84010ac0105c47296e7a2e72",
+        "component:study-guide/crispr-as-a-system.md": "c18c7bac26c8ebbadcd3fb363aa1a3a6c31004dea11d1fadd56392536ccfc7a6",
+        "component:study-guide/editing-genomes.md": "d992b33e6f6f505aabb0ea3e271089db3f28a9487dbbbd3bae3db75e6e5b7658"
+      }
+    },
+    {
+      "id": "component:practice/crispr-as-a-system.md",
+      "path": "practice/crispr-as-a-system.md",
+      "type": "practice",
+      "chapter": "crispr-as-a-system",
+      "hash": "13069a43a8e8b96c7eafea45e17866afc6cc2cee92147690827552a067b1fb63",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:assessment-support/crispr-as-a-system.md": "b93aec071847789774fb5c72e21accf0bac9de0367cff1b2ae30c6a07e872910",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+        "component:metadata/SOURCE_RECORD.json": "1c93b51394d05a7e21b74c8e70007040cf5dfe7c26dd39a4d2078a070dff4ebc",
+        "component:study-guide/crispr-as-a-system.md": "c18c7bac26c8ebbadcd3fb363aa1a3a6c31004dea11d1fadd56392536ccfc7a6"
+      }
+    },
+    {
+      "id": "component:practice/editing-genomes.md",
+      "path": "practice/editing-genomes.md",
+      "type": "practice",
+      "chapter": "editing-genomes",
+      "hash": "3f850f3547ca06070783b41e98be42f8844628fffc1f537d95c3a5a197913ecf",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:assessment-support/editing-genomes.md": "a268918e0a8e0d645d21aa36e72c95c2988e7989fe30eeb68d63e2486621b34f",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+        "component:metadata/SOURCE_RECORD.json": "1c93b51394d05a7e21b74c8e70007040cf5dfe7c26dd39a4d2078a070dff4ebc",
+        "component:study-guide/editing-genomes.md": "d992b33e6f6f505aabb0ea3e271089db3f28a9487dbbbd3bae3db75e6e5b7658"
+      }
+    },
+    {
+      "id": "component:README.md",
+      "path": "README.md",
+      "type": "readme",
+      "chapter": null,
+      "hash": "f0c160a721cb5aed9dab3a9740a427f9ef9a85fd2782440e7b21c45d3c44b97e",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf"
+      }
+    },
+    {
+      "id": "component:slides/crispr-as-a-system.md",
+      "path": "slides/crispr-as-a-system.md",
+      "type": "slides",
+      "chapter": "crispr-as-a-system",
+      "hash": "3102edc30c0d58e63294c6ba5b3c449399591241d16f1e5c2ae88e56a82993f2",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:assets/bacteriophages.jpg": "34d79aed0a1ecca1709c2fa535411592e68eca91aa3a3df4d17a92fbb01aff49",
+        "component:assets/cas9-checkpoints.svg": "65cff5650a11b9456fee4f85edb481ab8602cce0b64535c73a465c2bdf1f54fb",
+        "component:assets/crispr-locus-memory.svg": "a5d2d9b3e3e50e241d75bbe91f4147c3433382d954b23d5666d14c45209c48c9",
+        "component:assets/targeting-pam.svg": "92d3c77cd8199248a2029f88a726ce158c27bf982731259890d7c019d718f018",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+        "component:metadata/PROVENANCE.json": "c62ed1cff95e7e82481e85c4fef494d86d7e4662c671197ffa918167c94492bc",
+        "component:metadata/SOURCE_RECORD.json": "1c93b51394d05a7e21b74c8e70007040cf5dfe7c26dd39a4d2078a070dff4ebc",
+        "component:study-guide/crispr-as-a-system.md": "c18c7bac26c8ebbadcd3fb363aa1a3a6c31004dea11d1fadd56392536ccfc7a6"
+      }
+    },
+    {
+      "id": "component:slides/editing-genomes.md",
+      "path": "slides/editing-genomes.md",
+      "type": "slides",
+      "chapter": "editing-genomes",
+      "hash": "cf15d3fc2be417b348c8c81e3a10095cc220a53f84010ac0105c47296e7a2e72",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:assets/delivery-tradeoffs.svg": "c5a3302af834fbea7d55a847646fa57cac1900b8e42d917db2ac9910e0e974fe",
+        "component:assets/edit-to-outcome.svg": "c0d6958a47c533eeb480d8f3d2497336230bdfb5a1deb66800dd17e84ad02026",
+        "component:assets/evidence-ladder.svg": "cd33296bdfd80f7935cb6738b9a8d09b2a7932643e5a456662cfbfa465508fdc",
+        "component:assets/loading-dna-gel.jpg": "ff3d9e2d308ed1eaa6eca044bac3fba01b897e7131fd306b737f62dcb3c9b8c2",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+        "component:metadata/PROVENANCE.json": "c62ed1cff95e7e82481e85c4fef494d86d7e4662c671197ffa918167c94492bc",
+        "component:metadata/SOURCE_RECORD.json": "1c93b51394d05a7e21b74c8e70007040cf5dfe7c26dd39a4d2078a070dff4ebc",
+        "component:study-guide/editing-genomes.md": "d992b33e6f6f505aabb0ea3e271089db3f28a9487dbbbd3bae3db75e6e5b7658"
+      }
+    },
+    {
+      "id": "component:study-guide/crispr-as-a-system.md",
+      "path": "study-guide/crispr-as-a-system.md",
+      "type": "study-guide",
+      "chapter": "crispr-as-a-system",
+      "hash": "c18c7bac26c8ebbadcd3fb363aa1a3a6c31004dea11d1fadd56392536ccfc7a6",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:assets/bacteriophages.jpg": "34d79aed0a1ecca1709c2fa535411592e68eca91aa3a3df4d17a92fbb01aff49",
+        "component:assets/cas9-checkpoints.svg": "65cff5650a11b9456fee4f85edb481ab8602cce0b64535c73a465c2bdf1f54fb",
+        "component:assets/crispr-locus-memory.svg": "a5d2d9b3e3e50e241d75bbe91f4147c3433382d954b23d5666d14c45209c48c9",
+        "component:assets/targeting-pam.svg": "92d3c77cd8199248a2029f88a726ce158c27bf982731259890d7c019d718f018",
+        "component:concepts/crispr-as-a-system.md": "cdde47e111b45e4ba13c5db4d8505a045684df5329925bd8addd50ba0550d820",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+        "component:metadata/PROVENANCE.json": "c62ed1cff95e7e82481e85c4fef494d86d7e4662c671197ffa918167c94492bc",
+        "component:metadata/SOURCE_RECORD.json": "1c93b51394d05a7e21b74c8e70007040cf5dfe7c26dd39a4d2078a070dff4ebc"
+      }
+    },
+    {
+      "id": "component:study-guide/editing-genomes.md",
+      "path": "study-guide/editing-genomes.md",
+      "type": "study-guide",
+      "chapter": "editing-genomes",
+      "hash": "d992b33e6f6f505aabb0ea3e271089db3f28a9487dbbbd3bae3db75e6e5b7658",
+      "dependencies": {
+        "component:alembic.json": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+        "component:assets/delivery-tradeoffs.svg": "c5a3302af834fbea7d55a847646fa57cac1900b8e42d917db2ac9910e0e974fe",
+        "component:assets/edit-to-outcome.svg": "c0d6958a47c533eeb480d8f3d2497336230bdfb5a1deb66800dd17e84ad02026",
+        "component:assets/electrophoresis-equipment.jpg": "38c520a708111ddf90f880a8bcaba40782eda8f0ffc8f89bee3e804c9c5a7ec3",
+        "component:assets/evidence-ladder.svg": "cd33296bdfd80f7935cb6738b9a8d09b2a7932643e5a456662cfbfa465508fdc",
+        "component:assets/loading-dna-gel.jpg": "ff3d9e2d308ed1eaa6eca044bac3fba01b897e7131fd306b737f62dcb3c9b8c2",
+        "component:concepts/editing-genomes.md": "4fa200d101492b06e325cad4759d87be578518099e459cb9f53cde30f56e264a",
+        "component:metadata/FOUNDATION.json": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+        "component:metadata/PROVENANCE.json": "c62ed1cff95e7e82481e85c4fef494d86d7e4662c671197ffa918167c94492bc",
+        "component:metadata/SOURCE_RECORD.json": "1c93b51394d05a7e21b74c8e70007040cf5dfe7c26dd39a4d2078a070dff4ebc"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "component:alembic.json",
+      "to": "component:assessment-support/crispr-as-a-system.md",
+      "reason": "manifest identity/scope/license constrains component"
+    },
+    {
+      "from": "component:alembic.json",
+      "to": "component:assessment-support/editing-genomes.md",
+      "reason": "manifest identity/scope/license constrains component"
+    },
+    {
+      "from": "component:alembic.json",
+      "to": "component:concepts/course.md",
+      "reason": "manifest identity/scope/license constrains component"
+    },
+    {
+      "from": "component:alembic.json",
+      "to": "component:concepts/crispr-as-a-system.md",
+      "reason": "manifest identity/scope/license constrains component"
+    },
+    {
+      "from": "component:alembic.json",
+      "to": "component:concepts/editing-genomes.md",
+      "reason": "manifest identity/scope/license constrains component"
+    },
+    {
+      "from": "component:alembic.json",
+      "to": "component:LICENSE",
+      "reason": "manifest identity/scope/license constrains component"
+    },
+    {
+      "from": "component:alembic.json",
+      "to": "component:metadata/ATTRIBUTION.md",
+      "reason": "manifest identity/scope/license constrains component"
+    },
+    {
+      "from": "component:alembic.json",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "output-license declaration is rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:alembic.json",
+      "to": "component:practice/crispr-as-a-system.md",
+      "reason": "manifest identity/scope/license constrains component"
+    },
+    {
+      "from": "component:alembic.json",
+      "to": "component:practice/editing-genomes.md",
+      "reason": "manifest identity/scope/license constrains component"
+    },
+    {
+      "from": "component:alembic.json",
+      "to": "component:README.md",
+      "reason": "manifest identity/scope/license constrains component"
+    },
+    {
+      "from": "component:alembic.json",
+      "to": "component:slides/crispr-as-a-system.md",
+      "reason": "manifest identity/scope/license constrains component"
+    },
+    {
+      "from": "component:alembic.json",
+      "to": "component:slides/editing-genomes.md",
+      "reason": "manifest identity/scope/license constrains component"
+    },
+    {
+      "from": "component:alembic.json",
+      "to": "component:study-guide/crispr-as-a-system.md",
+      "reason": "manifest identity/scope/license constrains component"
+    },
+    {
+      "from": "component:alembic.json",
+      "to": "component:study-guide/editing-genomes.md",
+      "reason": "manifest identity/scope/license constrains component"
+    },
+    {
+      "from": "component:assessment-support/crispr-as-a-system.md",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "teaching content must be rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:assessment-support/crispr-as-a-system.md",
+      "to": "component:practice/crispr-as-a-system.md",
+      "reason": "practice instantiates assessment design"
+    },
+    {
+      "from": "component:assessment-support/editing-genomes.md",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "teaching content must be rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:assessment-support/editing-genomes.md",
+      "to": "component:practice/editing-genomes.md",
+      "reason": "practice instantiates assessment design"
+    },
+    {
+      "from": "component:assets/bacteriophages.jpg",
+      "to": "component:metadata/ATTRIBUTION.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/bacteriophages.jpg",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "visual asset must be re-reviewed after change"
+    },
+    {
+      "from": "component:assets/bacteriophages.jpg",
+      "to": "component:slides/crispr-as-a-system.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/bacteriophages.jpg",
+      "to": "component:study-guide/crispr-as-a-system.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/cas9-checkpoints.svg",
+      "to": "component:metadata/ATTRIBUTION.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/cas9-checkpoints.svg",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "visual asset must be re-reviewed after change"
+    },
+    {
+      "from": "component:assets/cas9-checkpoints.svg",
+      "to": "component:slides/crispr-as-a-system.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/cas9-checkpoints.svg",
+      "to": "component:study-guide/crispr-as-a-system.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/crispr-locus-memory.svg",
+      "to": "component:metadata/ATTRIBUTION.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/crispr-locus-memory.svg",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "visual asset must be re-reviewed after change"
+    },
+    {
+      "from": "component:assets/crispr-locus-memory.svg",
+      "to": "component:slides/crispr-as-a-system.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/crispr-locus-memory.svg",
+      "to": "component:study-guide/crispr-as-a-system.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/delivery-tradeoffs.svg",
+      "to": "component:metadata/ATTRIBUTION.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/delivery-tradeoffs.svg",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "visual asset must be re-reviewed after change"
+    },
+    {
+      "from": "component:assets/delivery-tradeoffs.svg",
+      "to": "component:slides/editing-genomes.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/delivery-tradeoffs.svg",
+      "to": "component:study-guide/editing-genomes.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/edit-to-outcome.svg",
+      "to": "component:metadata/ATTRIBUTION.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/edit-to-outcome.svg",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "visual asset must be re-reviewed after change"
+    },
+    {
+      "from": "component:assets/edit-to-outcome.svg",
+      "to": "component:slides/editing-genomes.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/edit-to-outcome.svg",
+      "to": "component:study-guide/editing-genomes.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/electrophoresis-equipment.jpg",
+      "to": "component:metadata/ATTRIBUTION.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/electrophoresis-equipment.jpg",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "visual asset must be re-reviewed after change"
+    },
+    {
+      "from": "component:assets/electrophoresis-equipment.jpg",
+      "to": "component:study-guide/editing-genomes.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/evidence-ladder.svg",
+      "to": "component:metadata/ATTRIBUTION.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/evidence-ladder.svg",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "visual asset must be re-reviewed after change"
+    },
+    {
+      "from": "component:assets/evidence-ladder.svg",
+      "to": "component:slides/editing-genomes.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/evidence-ladder.svg",
+      "to": "component:study-guide/editing-genomes.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/loading-dna-gel.jpg",
+      "to": "component:metadata/ATTRIBUTION.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/loading-dna-gel.jpg",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "visual asset must be re-reviewed after change"
+    },
+    {
+      "from": "component:assets/loading-dna-gel.jpg",
+      "to": "component:slides/editing-genomes.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/loading-dna-gel.jpg",
+      "to": "component:study-guide/editing-genomes.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/targeting-pam.svg",
+      "to": "component:metadata/ATTRIBUTION.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/targeting-pam.svg",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "visual asset must be re-reviewed after change"
+    },
+    {
+      "from": "component:assets/targeting-pam.svg",
+      "to": "component:slides/crispr-as-a-system.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:assets/targeting-pam.svg",
+      "to": "component:study-guide/crispr-as-a-system.md",
+      "reason": "component embeds/references asset"
+    },
+    {
+      "from": "component:concepts/course.md",
+      "to": "component:concepts/crispr-as-a-system.md",
+      "reason": "course logic constrains chapter logic"
+    },
+    {
+      "from": "component:concepts/course.md",
+      "to": "component:concepts/editing-genomes.md",
+      "reason": "course logic constrains chapter logic"
+    },
+    {
+      "from": "component:concepts/course.md",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "teaching content must be rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:concepts/crispr-as-a-system.md",
+      "to": "component:assessment-support/crispr-as-a-system.md",
+      "reason": "chapter objectives drive assessment"
+    },
+    {
+      "from": "component:concepts/crispr-as-a-system.md",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "teaching content must be rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:concepts/crispr-as-a-system.md",
+      "to": "component:study-guide/crispr-as-a-system.md",
+      "reason": "chapter concepts drive study guide"
+    },
+    {
+      "from": "component:concepts/editing-genomes.md",
+      "to": "component:assessment-support/editing-genomes.md",
+      "reason": "chapter objectives drive assessment"
+    },
+    {
+      "from": "component:concepts/editing-genomes.md",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "teaching content must be rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:concepts/editing-genomes.md",
+      "to": "component:study-guide/editing-genomes.md",
+      "reason": "chapter concepts drive study guide"
+    },
+    {
+      "from": "component:LICENSE",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "canonical output-license text is rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:metadata/ATTRIBUTION.md",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "public attribution obligations are rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:alembic.json",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:assessment-support/crispr-as-a-system.md",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:assessment-support/editing-genomes.md",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:assets/bacteriophages.jpg",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:assets/cas9-checkpoints.svg",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:assets/crispr-locus-memory.svg",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:assets/delivery-tradeoffs.svg",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:assets/edit-to-outcome.svg",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:assets/electrophoresis-equipment.jpg",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:assets/evidence-ladder.svg",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:assets/loading-dna-gel.jpg",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:assets/targeting-pam.svg",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:concepts/course.md",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:concepts/crispr-as-a-system.md",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:concepts/editing-genomes.md",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:LICENSE",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/ATTRIBUTION.md",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/evidence/media-photo-bacteriophages.html",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/evidence/media-photo-electrophoresis-equipment.html",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/evidence/media-photo-loading-dna-gel.html",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/evidence/wikipedia-crispr-gene-editing.html",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/MEDIA_PLAN.json",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/preflight/wikipedia-cas9.json",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/preflight/wikipedia-crispr-gene-editing.json",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/preflight/wikipedia-crispr.json",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/preflight/wikipedia-dna-repair.json",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/preflight/wikipedia-genome-editing.json",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/PRESENTATION.json",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/PROVENANCE.json",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/SOURCE_RECORD.json",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:practice/crispr-as-a-system.md",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:practice/editing-genomes.md",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:README.md",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:slides/crispr-as-a-system.md",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:slides/editing-genomes.md",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:study-guide/crispr-as-a-system.md",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/FOUNDATION.json",
+      "to": "component:study-guide/editing-genomes.md",
+      "reason": "foundation facts constrain component"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:metadata/ATTRIBUTION.md",
+      "reason": "human attribution mirrors provenance"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "media provenance is rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:slides/crispr-as-a-system.md",
+      "reason": "provenance item fig-cas9-checkpoints constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:slides/crispr-as-a-system.md",
+      "reason": "provenance item fig-crispr-locus-memory constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:slides/crispr-as-a-system.md",
+      "reason": "provenance item fig-targeting-pam constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:slides/crispr-as-a-system.md",
+      "reason": "provenance item photo-bacteriophages constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:slides/editing-genomes.md",
+      "reason": "provenance item fig-delivery-tradeoffs constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:slides/editing-genomes.md",
+      "reason": "provenance item fig-edit-to-outcome constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:slides/editing-genomes.md",
+      "reason": "provenance item fig-evidence-ladder constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:slides/editing-genomes.md",
+      "reason": "provenance item photo-loading-dna-gel constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:study-guide/crispr-as-a-system.md",
+      "reason": "provenance item fig-cas9-checkpoints constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:study-guide/crispr-as-a-system.md",
+      "reason": "provenance item fig-crispr-locus-memory constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:study-guide/crispr-as-a-system.md",
+      "reason": "provenance item fig-targeting-pam constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:study-guide/crispr-as-a-system.md",
+      "reason": "provenance item photo-bacteriophages constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:study-guide/editing-genomes.md",
+      "reason": "provenance item fig-delivery-tradeoffs constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:study-guide/editing-genomes.md",
+      "reason": "provenance item fig-edit-to-outcome constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:study-guide/editing-genomes.md",
+      "reason": "provenance item fig-evidence-ladder constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:study-guide/editing-genomes.md",
+      "reason": "provenance item photo-electrophoresis-equipment constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/PROVENANCE.json",
+      "to": "component:study-guide/editing-genomes.md",
+      "reason": "provenance item photo-loading-dna-gel constrains incorporating document"
+    },
+    {
+      "from": "component:metadata/SOURCE_RECORD.json",
+      "to": "component:assessment-support/crispr-as-a-system.md",
+      "reason": "revision-bound sources constrain teaching content"
+    },
+    {
+      "from": "component:metadata/SOURCE_RECORD.json",
+      "to": "component:assessment-support/editing-genomes.md",
+      "reason": "revision-bound sources constrain teaching content"
+    },
+    {
+      "from": "component:metadata/SOURCE_RECORD.json",
+      "to": "component:concepts/course.md",
+      "reason": "revision-bound sources constrain teaching content"
+    },
+    {
+      "from": "component:metadata/SOURCE_RECORD.json",
+      "to": "component:concepts/crispr-as-a-system.md",
+      "reason": "revision-bound sources constrain teaching content"
+    },
+    {
+      "from": "component:metadata/SOURCE_RECORD.json",
+      "to": "component:concepts/editing-genomes.md",
+      "reason": "revision-bound sources constrain teaching content"
+    },
+    {
+      "from": "component:metadata/SOURCE_RECORD.json",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "source revisions are rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:metadata/SOURCE_RECORD.json",
+      "to": "component:practice/crispr-as-a-system.md",
+      "reason": "revision-bound sources constrain teaching content"
+    },
+    {
+      "from": "component:metadata/SOURCE_RECORD.json",
+      "to": "component:practice/editing-genomes.md",
+      "reason": "revision-bound sources constrain teaching content"
+    },
+    {
+      "from": "component:metadata/SOURCE_RECORD.json",
+      "to": "component:slides/crispr-as-a-system.md",
+      "reason": "revision-bound sources constrain teaching content"
+    },
+    {
+      "from": "component:metadata/SOURCE_RECORD.json",
+      "to": "component:slides/editing-genomes.md",
+      "reason": "revision-bound sources constrain teaching content"
+    },
+    {
+      "from": "component:metadata/SOURCE_RECORD.json",
+      "to": "component:study-guide/crispr-as-a-system.md",
+      "reason": "revision-bound sources constrain teaching content"
+    },
+    {
+      "from": "component:metadata/SOURCE_RECORD.json",
+      "to": "component:study-guide/editing-genomes.md",
+      "reason": "revision-bound sources constrain teaching content"
+    },
+    {
+      "from": "component:practice/crispr-as-a-system.md",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "teaching content must be rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:practice/crispr-as-a-system.md",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "carrier source must be visually re-reviewed after change"
+    },
+    {
+      "from": "component:practice/editing-genomes.md",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "teaching content must be rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:practice/editing-genomes.md",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "carrier source must be visually re-reviewed after change"
+    },
+    {
+      "from": "component:slides/crispr-as-a-system.md",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "teaching content must be rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:slides/crispr-as-a-system.md",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "carrier source must be visually re-reviewed after change"
+    },
+    {
+      "from": "component:slides/editing-genomes.md",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "teaching content must be rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:slides/editing-genomes.md",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "carrier source must be visually re-reviewed after change"
+    },
+    {
+      "from": "component:study-guide/crispr-as-a-system.md",
+      "to": "component:assessment-support/crispr-as-a-system.md",
+      "reason": "terminology/examples constrain assessment"
+    },
+    {
+      "from": "component:study-guide/crispr-as-a-system.md",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "teaching content must be rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:study-guide/crispr-as-a-system.md",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "carrier source must be visually re-reviewed after change"
+    },
+    {
+      "from": "component:study-guide/crispr-as-a-system.md",
+      "to": "component:practice/crispr-as-a-system.md",
+      "reason": "practice must remain consistent with teaching content"
+    },
+    {
+      "from": "component:study-guide/crispr-as-a-system.md",
+      "to": "component:slides/crispr-as-a-system.md",
+      "reason": "slides derive from study guide"
+    },
+    {
+      "from": "component:study-guide/editing-genomes.md",
+      "to": "component:assessment-support/editing-genomes.md",
+      "reason": "terminology/examples constrain assessment"
+    },
+    {
+      "from": "component:study-guide/editing-genomes.md",
+      "to": "component:metadata/KEY_FACT_REVIEW.json",
+      "reason": "teaching content must be rechecked in the key-fact critique"
+    },
+    {
+      "from": "component:study-guide/editing-genomes.md",
+      "to": "component:metadata/VISUAL_REVIEW.json",
+      "reason": "carrier source must be visually re-reviewed after change"
+    },
+    {
+      "from": "component:study-guide/editing-genomes.md",
+      "to": "component:practice/editing-genomes.md",
+      "reason": "practice must remain consistent with teaching content"
+    },
+    {
+      "from": "component:study-guide/editing-genomes.md",
+      "to": "component:slides/editing-genomes.md",
+      "reason": "slides derive from study guide"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "mode": "light",
+  "reviewKind": "same-model-independent-pass",
+  "authoringSystem": "OpenAI Codex",
+  "authoringModelId": "gpt-5",
+  "reviewer": {
+    "name": "OpenAI Codex same-model assurance reviewer",
+    "type": "ai",
+    "modelId": "gpt-5"
+  },
+  "independence": {
+    "separatePass": true,
+    "contextReset": true,
+    "approach": "After drafting, a separate checklist-driven pass reopened the foundation, revision-bound source record and snapshots, media provenance, generated attribution, and all learner-facing claims. It tested each high-level fact and license assertion against retained evidence and searched for common CRISPR overgeneralizations rather than accepting drafting notes."
+  },
+  "reviewedAt": "2026-07-14",
+  "bindings": {
+    "manifestSha256": "868ca05747f9355bdffe067aa89588f5455b900052cbcb8f50d80997765a7a73",
+    "licenseSha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2",
+    "foundationSha256": "91b5244875bf2f7b1ec7e2aeb9966f8c9c589cdb6b79751b2a3aa08ae7724bdf",
+    "provenanceSha256": "c62ed1cff95e7e82481e85c4fef494d86d7e4662c671197ffa918167c94492bc",
+    "attributionSha256": "0e091e0c0afacadc68474cada6e883075ecc47add061d2a45e9d128d1e57c2cf",
+    "sourceRecordSha256": "1c93b51394d05a7e21b74c8e70007040cf5dfe7c26dd39a4d2078a070dff4ebc",
+    "deliverableTreeSha256": "8637b29f404a2562c80708d3461c162b7d999f79798c9bb41adf18681c295fc9"
+  },
+  "checks": [
+    {
+      "id": "accountable-identity",
+      "status": "passed",
+      "note": "FOUNDATION.json names Yu Wang—not an AI-agent label—as the accountable publisher, curator, and confirmed rights holder, and accurately discloses the limited human role in this automatically generated demonstration."
+    },
+    {
+      "id": "source-identity-version",
+      "status": "passed",
+      "note": "All five Wikipedia sources are bound to raw API snapshots, extracted-text hashes, page and revision IDs, timestamps, permanent URLs, retrieval metadata, and word counts."
+    },
+    {
+      "id": "source-license-evidence",
+      "status": "passed",
+      "note": "Every declared text source has a pre-ingestion receipt bound to a retained, hashed Wikimedia Terms of Use snapshot; the deterministic process-notice scan found no unresolved notice, and pre-ingestion assurance passed before fetching the corpus."
+    },
+    {
+      "id": "external-media-rights",
+      "status": "passed",
+      "note": "The bacteriophage photograph is recorded as CC BY-SA 3.0 and the two U.S. National Institutes of Health photographs as public domain; all three have exact local provenance rows and retained, hashed Commons description-page evidence. Six SVG diagrams are identified as original contributions by Yu Wang."
+    },
+    {
+      "id": "output-license-compatibility",
+      "status": "passed",
+      "note": "CC BY-SA 4.0 satisfies the adapted Wikipedia text obligation and is compatible with the original diagrams, public-domain photographs, and the CC BY-SA 3.0 photograph under Creative Commons' later-version compatibility. The manifest, foundation, LICENSE, chapter records, and attribution agree."
+    },
+    {
+      "id": "attribution-obligations",
+      "status": "passed",
+      "note": "Generated ATTRIBUTION.md mirrors structured provenance. Relevant learner-facing deliverables credit Wikipedia contributors, linked article identities, adaptation, CC BY-SA 4.0, and the exact revision record; media credits name creator, source, and license."
+    },
+    {
+      "id": "scientific-key-facts",
+      "status": "passed",
+      "note": "A separate claim audit checked CRISPR-system diversity; adaptation, biogenesis, and interference; spacer/protospacer/PAM distinctions; Type II and SpCas9-specific language; targeting checkpoints; active Cas9, nickase, and dCas9; repair outcome distributions; delivery exposure; assay boundaries; and empirical versus normative governance claims. Overstatements were removed or explicitly bounded."
+    }
+  ],
+  "keyFacts": [
+    {
+      "id": "fact-crispr-family",
+      "claim": "CRISPR–Cas systems are diverse microbial defense systems, so CRISPR should not be treated as the name of one protein or as a synonym for Cas9.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wikipedia-crispr",
+        "wikipedia-cas9"
+      ],
+      "usedIn": [
+        "study-guide/crispr-as-a-system.md",
+        "slides/crispr-as-a-system.md",
+        "practice/crispr-as-a-system.md"
+      ],
+      "note": "The source distinguishes CRISPR loci, multiple system types, and associated proteins. Every carrier confines detailed Cas9 mechanics to Type II or engineered Cas9 contexts."
+    },
+    {
+      "id": "fact-defense-stages",
+      "claim": "A useful CRISPR defense model separates spacer acquisition, guide-RNA biogenesis, and interference.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wikipedia-crispr"
+      ],
+      "usedIn": [
+        "concepts/crispr-as-a-system.md",
+        "study-guide/crispr-as-a-system.md",
+        "slides/crispr-as-a-system.md",
+        "practice/crispr-as-a-system.md"
+      ],
+      "note": "The revision-bound CRISPR article describes adaptation, biogenesis, and interference separately; the package avoids implying that acquisition occurs during every targeting event."
+    },
+    {
+      "id": "fact-spacer-protospacer-pam",
+      "claim": "A spacer is stored in a CRISPR array, its corresponding protospacer is located in target nucleic acid, and a PAM is a neighboring system-dependent motif rather than simply part of the guide.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wikipedia-crispr",
+        "wikipedia-cas9"
+      ],
+      "usedIn": [
+        "study-guide/crispr-as-a-system.md",
+        "slides/crispr-as-a-system.md",
+        "practice/crispr-as-a-system.md"
+      ],
+      "note": "The package explicitly rejects a universal PAM rule and labels 5′-NGG-3′ only as a common SpCas9 example."
+    },
+    {
+      "id": "fact-cas9-checkpoints",
+      "claim": "Cas9 action depends on PAM recognition, guide–target pairing, conformational progression, and catalysis; a sequence match alone does not prove cleavage.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wikipedia-cas9",
+        "wikipedia-crispr-gene-editing"
+      ],
+      "usedIn": [
+        "study-guide/crispr-as-a-system.md",
+        "slides/crispr-as-a-system.md",
+        "practice/crispr-as-a-system.md"
+      ],
+      "note": "Learner-facing text treats targeting as checkpoints and makes mismatch effects context-dependent instead of inventing a universal mismatch cutoff."
+    },
+    {
+      "id": "fact-cas9-variants",
+      "claim": "Nuclease-active Cas9, Cas9 nickase, and catalytically inactive dCas9 retain different combinations of guide-directed binding and strand-cleavage activity.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wikipedia-cas9",
+        "wikipedia-crispr-gene-editing"
+      ],
+      "usedIn": [
+        "study-guide/crispr-as-a-system.md",
+        "slides/crispr-as-a-system.md",
+        "practice/crispr-as-a-system.md"
+      ],
+      "note": "The package distinguishes double-strand cleavage, single-strand nicking in the simplified variant model, and programmable binding without cleavage."
+    },
+    {
+      "id": "fact-repair-distribution",
+      "claim": "A programmed DNA lesion creates an opportunity for cellular repair and can yield a distribution of alleles rather than one commanded genotype.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wikipedia-crispr-gene-editing",
+        "wikipedia-genome-editing",
+        "wikipedia-dna-repair"
+      ],
+      "usedIn": [
+        "study-guide/editing-genomes.md",
+        "slides/editing-genomes.md",
+        "practice/editing-genomes.md"
+      ],
+      "note": "The package does not label all end joining as uniformly erroneous and presents NHEJ, microhomology-mediated joining, and template-supported repair as context-dependent pathway families."
+    },
+    {
+      "id": "fact-base-prime-bounds",
+      "claim": "Base and prime editing expand the design space and can avoid a programmed double-strand break in many designs, but still require outcome and consequence validation.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wikipedia-crispr-gene-editing",
+        "wikipedia-genome-editing"
+      ],
+      "usedIn": [
+        "study-guide/editing-genomes.md",
+        "slides/editing-genomes.md",
+        "practice/editing-genomes.md"
+      ],
+      "note": "The wording avoids claiming that non-DSB approaches are universally precise, safe, or free of mixed products and delivery effects."
+    },
+    {
+      "id": "fact-metric-separation",
+      "claim": "On-target efficiency, on-target heterogeneity, off-target activity, functional effect, and toxicity are different quality dimensions and cannot substitute for one another.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wikipedia-crispr-gene-editing",
+        "wikipedia-genome-editing",
+        "wikipedia-dna-repair"
+      ],
+      "usedIn": [
+        "study-guide/editing-genomes.md",
+        "assessment-support/editing-genomes.md",
+        "practice/editing-genomes.md"
+      ],
+      "note": "The package uses an evidence ladder and states the limits of short target-site amplicon sequencing before broader functional claims."
+    },
+    {
+      "id": "fact-governance-context",
+      "claim": "Somatic, heritable, agricultural, and ecological editing contexts raise different empirical, ethical, consent, reversibility, and governance questions.",
+      "status": "verified",
+      "evidenceSourceIds": [
+        "wikipedia-crispr-gene-editing",
+        "wikipedia-genome-editing",
+        "wikipedia-cas9"
+      ],
+      "usedIn": [
+        "study-guide/editing-genomes.md",
+        "slides/editing-genomes.md",
+        "assessment-support/editing-genomes.md",
+        "practice/editing-genomes.md"
+      ],
+      "note": "The package does not provide clinical advice or let technical accuracy settle normative decisions; empirical and normative claims are explicitly separated."
+    }
+  ]
+}

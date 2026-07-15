@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+  <title id="title">From a programmed DNA break to a distribution of repair outcomes</title>
+  <desc id="desc">A targeted break branches into end joining, microhomology-mediated joining, and template-supported repair. Each pathway can yield multiple genotypes, emphasizing that the editing reagent programs a lesion while the cell produces the outcome.</desc>
+  <rect width="1000" height="560" rx="28" fill="#f5f1e8"/>
+  <text x="55" y="68" font-family="Arial" font-size="30" font-weight="700" fill="#263238">The reagent programs a lesion; the cell produces outcomes</text>
+  <g transform="translate(75 115)" font-family="Arial">
+    <rect x="0" y="65" width="210" height="105" rx="18" fill="#3e6f9e"/>
+    <text x="30" y="105" font-size="22" font-weight="700" fill="white">targeted DNA lesion</text>
+    <text x="42" y="138" font-size="18" fill="white">break, nick, or base change</text>
+    <path d="M220 118 H300" stroke="#263238" stroke-width="5" marker-end="url(#a4)"/>
+    <circle cx="340" cy="118" r="37" fill="#d46a55"/><text x="321" y="128" font-size="28" font-weight="700" fill="white">cell</text>
+    <path d="M377 100 C440 30 480 30 530 30" fill="none" stroke="#263238" stroke-width="4" marker-end="url(#a4)"/>
+    <path d="M377 118 H530" stroke="#263238" stroke-width="4" marker-end="url(#a4)"/>
+    <path d="M377 136 C440 205 480 205 530 205" fill="none" stroke="#263238" stroke-width="4" marker-end="url(#a4)"/>
+    <g transform="translate(545 -15)"><rect width="320" height="90" rx="16" fill="#2f6f5e"/><text x="20" y="35" font-size="22" font-weight="700" fill="white">end joining</text><text x="20" y="66" font-size="18" fill="white">precise joins, insertions, deletions</text></g>
+    <g transform="translate(545 75)"><rect width="320" height="90" rx="16" fill="#7e9f76"/><text x="20" y="35" font-size="22" font-weight="700" fill="white">microhomology-mediated joining</text><text x="20" y="66" font-size="18" fill="white">often patterned deletions</text></g>
+    <g transform="translate(545 165)"><rect width="320" height="90" rx="16" fill="#e2b85b"/><text x="20" y="35" font-size="22" font-weight="700" fill="#263238">template-supported repair</text><text x="20" y="66" font-size="18" fill="#263238">intended change plus by-products</text></g>
+    <path d="M705 270 V325" stroke="#263238" stroke-width="5" marker-end="url(#a4)"/>
+    <rect x="400" y="335" width="465" height="88" rx="18" fill="#d46a55" opacity=".17" stroke="#d46a55" stroke-width="3"/>
+    <text x="430" y="372" font-size="22" font-weight="700" fill="#263238">observed population = mixture of alleles and unedited cells</text>
+    <text x="430" y="403" font-size="18" fill="#263238">frequencies depend on cell type, timing, delivery, locus, and assay</text>
+  </g>
+  <defs><marker id="a4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6Z" fill="#263238"/></marker></defs>
+</svg>

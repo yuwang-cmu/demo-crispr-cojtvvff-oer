@@ -1,0 +1,15 @@
+# Attribution
+
+Generated from `metadata/PROVENANCE.json`; do not edit independently.
+
+| Asset | Title | Creator | Source | License/status | Attribution | Used in |
+|---|---|---|---|---|---|---|
+| `assets/bacteriophages.jpg` | Bacteriophages attached to a bacterial cell wall | Professor Graham Beards | [source](https://commons.wikimedia.org/wiki/File:Phage.jpg) | CC BY-SA 3.0 | Professor Graham Beards, transmission electron micrograph of bacteriophages attached to a bacterial cell wall, via Wikimedia Commons, CC BY-SA 3.0; used without modification. | study-guide/crispr-as-a-system.md, slides/crispr-as-a-system.md |
+| `assets/cas9-checkpoints.svg` | Cas9 target-recognition checkpoints | Yu Wang | — | CC BY-SA 4.0 | Original accessible SVG diagram by Yu Wang for this AI-assisted Coursewerk package; conceptual, not a structural model. | study-guide/crispr-as-a-system.md, slides/crispr-as-a-system.md |
+| `assets/crispr-locus-memory.svg` | CRISPR locus as a molecular memory record | Yu Wang | — | CC BY-SA 4.0 | Original accessible SVG diagram by Yu Wang for this AI-assisted Coursewerk package; explicitly schematic. | study-guide/crispr-as-a-system.md, slides/crispr-as-a-system.md |
+| `assets/delivery-tradeoffs.svg` | Delivery choices and their trade-offs | Yu Wang | — | CC BY-SA 4.0 | Original accessible SVG diagram by Yu Wang for this AI-assisted Coursewerk package; qualitative comparison, not measured data. | study-guide/editing-genomes.md, slides/editing-genomes.md |
+| `assets/edit-to-outcome.svg` | From programmed DNA break to a distribution of repair outcomes | Yu Wang | — | CC BY-SA 4.0 | Original accessible SVG diagram by Yu Wang for this AI-assisted Coursewerk package; explicitly schematic. | study-guide/editing-genomes.md, slides/editing-genomes.md |
+| `assets/electrophoresis-equipment.jpg` | Scientist using electrophoresis equipment | NIH / NIAMS | [source](https://commons.wikimedia.org/wiki/File:Electrophoresis_equipment.jpg) | Public domain | NIH/NIAMS, Anastassia Tikhonova using electrophoresis equipment; U.S. federal government work, public domain; used without modification. | study-guide/editing-genomes.md |
+| `assets/evidence-ladder.svg` | Evidence ladder from molecular edit to supported biological claim | Yu Wang | — | CC BY-SA 4.0 | Original accessible SVG diagram by Yu Wang for this AI-assisted Coursewerk package. | study-guide/editing-genomes.md, slides/editing-genomes.md |
+| `assets/loading-dna-gel.jpg` | NHGRI researcher loading DNA into a gel | Maggie Bartlett, NHGRI | [source](https://commons.wikimedia.org/wiki/File:Load_DNA_Gel.jpg) | Public domain | Maggie Bartlett/NHGRI, researcher Milton English loading DNA into a gel; U.S. federal government work, public domain; used without modification. | study-guide/editing-genomes.md, slides/editing-genomes.md |
+| `assets/targeting-pam.svg` | Guide pairing and PAM-dependent target recognition | Yu Wang | — | CC BY-SA 4.0 | Original accessible SVG diagram by Yu Wang for this AI-assisted Coursewerk package; explicitly schematic. | study-guide/crispr-as-a-system.md, slides/crispr-as-a-system.md |

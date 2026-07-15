@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "usageProfile": "public-oer",
+  "audience": "introductory undergraduate biology and biotechnology learners",
+  "access": "public-web",
+  "redistribution": "open-license",
+  "jurisdiction": "international",
+  "outputLicense": "CC-BY-SA-4.0",
+  "outputAuthors": [
+    {
+      "name": "Yu Wang",
+      "role": "accountable publisher and curator of this AI-generated Coursewerk demonstration",
+      "rightsHolder": true,
+      "accountabilityConfirmedByUser": true,
+      "aiAssistanceDisclosure": "The teaching materials were drafted, structured, formatted, and checked by an AI agent following Coursewerk without human-authored lesson content or subject-matter editing. Human involvement is limited to commissioning the demonstration, auditing the pipeline, visual review, and publication oversight."
+    }
+  ],
+  "privacy": {
+    "containsPersonalData": false,
+    "containsRestrictedContent": false
+  },
+  "sourcePrecedence": [
+    "wikipedia-crispr-gene-editing",
+    "wikipedia-crispr",
+    "wikipedia-cas9",
+    "wikipedia-genome-editing",
+    "wikipedia-dna-repair"
+  ],
+  "sources": [
+    {
+      "id": "wikipedia-crispr-gene-editing",
+      "title": "CRISPR gene editing",
+      "version": "live page; exact revision captured in SOURCE_CORPUS.json",
+      "publisher": "Wikipedia contributors",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/CRISPR_gene_editing",
+      "role": "primary",
+      "use": "adaptation",
+      "scope": [
+        "whole article text relevant to editing mechanisms, design, delivery, applications, limitations, and ethics; separately licensed media excluded"
+      ],
+      "rightsBasis": {
+        "type": "open-license",
+        "license": "CC-BY-SA-4.0",
+        "evidenceType": "official-publisher-page",
+        "evidenceUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+        "verifiedAt": "2026-07-14",
+        "evidenceSnapshot": "metadata/evidence/wikipedia-crispr-gene-editing.html",
+        "evidenceSha256": "fc76a0277b4ab7c623a3bbcfd323393dc1a36ddcba39aaf2506552448f251714",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+          "finalUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+          "redirectChain": [],
+          "retrievedAt": "2026-07-14T15:35:25.327Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 152376,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Coursewerk Demo Builder"
+          },
+          "capturedAt": "2026-07-14T15:35:25.327Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "processUseReview": {
+          "schemaVersion": 1,
+          "scannedAt": "2026-07-14T15:35:25.327Z",
+          "status": "no-notice-detected",
+          "legalEffectDetermined": false,
+          "notices": []
+        },
+        "preflightReceipt": "metadata/preflight/wikipedia-crispr-gene-editing.json",
+        "preflightReceiptSha256": "d4a2bcee7728d01766363735d54d540af160cc1fca2e2dc9b238dfbe4052cb95"
+      },
+      "requiredAttribution": {
+        "textIncludes": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/CRISPR_gene_editing",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modificationNotice": "Adapted and reorganized for this teaching resource.",
+        "placement": "metadata-and-relevant-deliverables"
+      }
+    },
+    {
+      "id": "wikipedia-crispr",
+      "title": "CRISPR",
+      "version": "live page; exact revision captured in SOURCE_CORPUS.json",
+      "publisher": "Wikipedia contributors",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/CRISPR",
+      "role": "primary",
+      "use": "adaptation",
+      "scope": [
+        "whole article text relevant to CRISPR loci, spacer acquisition, crRNA biogenesis, interference, diversity, and biological function; separately licensed media excluded"
+      ],
+      "rightsBasis": {
+        "type": "open-license",
+        "license": "CC-BY-SA-4.0",
+        "evidenceType": "official-publisher-page",
+        "evidenceUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+        "verifiedAt": "2026-07-14",
+        "evidenceSnapshot": "metadata/evidence/wikipedia-crispr-gene-editing.html",
+        "evidenceSha256": "fc76a0277b4ab7c623a3bbcfd323393dc1a36ddcba39aaf2506552448f251714",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+          "finalUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+          "redirectChain": [],
+          "retrievedAt": "2026-07-14T15:35:31.648Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 152376,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Coursewerk Demo Builder"
+          },
+          "capturedAt": "2026-07-14T15:35:31.648Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "processUseReview": {
+          "schemaVersion": 1,
+          "scannedAt": "2026-07-14T15:35:31.648Z",
+          "status": "no-notice-detected",
+          "legalEffectDetermined": false,
+          "notices": []
+        },
+        "preflightReceipt": "metadata/preflight/wikipedia-crispr.json",
+        "preflightReceiptSha256": "6cdba5932e7ea185473df341c27e44687eb335b8d510ba1a24f2afbac3c85e7b"
+      },
+      "requiredAttribution": {
+        "textIncludes": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/CRISPR",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modificationNotice": "Adapted and reorganized for this teaching resource.",
+        "placement": "metadata-and-relevant-deliverables"
+      }
+    },
+    {
+      "id": "wikipedia-cas9",
+      "title": "Cas9",
+      "version": "live page; exact revision captured in SOURCE_CORPUS.json",
+      "publisher": "Wikipedia contributors",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Cas9",
+      "role": "primary",
+      "use": "adaptation",
+      "scope": [
+        "whole article text relevant to RNA-guided target recognition, PAM dependence, DNA cleavage, engineered variants, and specificity; separately licensed media excluded"
+      ],
+      "rightsBasis": {
+        "type": "open-license",
+        "license": "CC-BY-SA-4.0",
+        "evidenceType": "official-publisher-page",
+        "evidenceUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+        "verifiedAt": "2026-07-14",
+        "evidenceSnapshot": "metadata/evidence/wikipedia-crispr-gene-editing.html",
+        "evidenceSha256": "fc76a0277b4ab7c623a3bbcfd323393dc1a36ddcba39aaf2506552448f251714",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+          "finalUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+          "redirectChain": [],
+          "retrievedAt": "2026-07-14T15:35:37.850Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 152376,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Coursewerk Demo Builder"
+          },
+          "capturedAt": "2026-07-14T15:35:37.850Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "processUseReview": {
+          "schemaVersion": 1,
+          "scannedAt": "2026-07-14T15:35:37.850Z",
+          "status": "no-notice-detected",
+          "legalEffectDetermined": false,
+          "notices": []
+        },
+        "preflightReceipt": "metadata/preflight/wikipedia-cas9.json",
+        "preflightReceiptSha256": "043137342b1b599322eb7a60fc4af7c472dcc41f2a2389afd5def813b8139ab8"
+      },
+      "requiredAttribution": {
+        "textIncludes": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Cas9",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modificationNotice": "Adapted and reorganized for this teaching resource.",
+        "placement": "metadata-and-relevant-deliverables"
+      }
+    },
+    {
+      "id": "wikipedia-genome-editing",
+      "title": "Genome editing",
+      "version": "live page; exact revision captured in SOURCE_CORPUS.json",
+      "publisher": "Wikipedia contributors",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Genome_editing",
+      "role": "primary",
+      "use": "adaptation",
+      "scope": [
+        "whole article text relevant to programmable nucleases, editing strategies, validation, applications, regulation, and ethical context; separately licensed media excluded"
+      ],
+      "rightsBasis": {
+        "type": "open-license",
+        "license": "CC-BY-SA-4.0",
+        "evidenceType": "official-publisher-page",
+        "evidenceUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+        "verifiedAt": "2026-07-14",
+        "evidenceSnapshot": "metadata/evidence/wikipedia-crispr-gene-editing.html",
+        "evidenceSha256": "fc76a0277b4ab7c623a3bbcfd323393dc1a36ddcba39aaf2506552448f251714",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+          "finalUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+          "redirectChain": [],
+          "retrievedAt": "2026-07-14T15:35:44.565Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 152376,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Coursewerk Demo Builder"
+          },
+          "capturedAt": "2026-07-14T15:35:44.565Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "processUseReview": {
+          "schemaVersion": 1,
+          "scannedAt": "2026-07-14T15:35:44.565Z",
+          "status": "no-notice-detected",
+          "legalEffectDetermined": false,
+          "notices": []
+        },
+        "preflightReceipt": "metadata/preflight/wikipedia-genome-editing.json",
+        "preflightReceiptSha256": "3bbb4b7ad97b2419a4efe3c2766365bce1cc442aff14eb991f40b96b4c5f9f38"
+      },
+      "requiredAttribution": {
+        "textIncludes": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Genome_editing",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modificationNotice": "Adapted and reorganized for this teaching resource.",
+        "placement": "metadata-and-relevant-deliverables"
+      }
+    },
+    {
+      "id": "wikipedia-dna-repair",
+      "title": "DNA repair",
+      "version": "live page; exact revision captured in SOURCE_CORPUS.json",
+      "publisher": "Wikipedia contributors",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/DNA_repair",
+      "role": "primary",
+      "use": "adaptation",
+      "scope": [
+        "sections relevant to double-strand break repair, non-homologous end joining, homology-directed repair, pathway competition, and editing outcomes; separately licensed media excluded"
+      ],
+      "rightsBasis": {
+        "type": "open-license",
+        "license": "CC-BY-SA-4.0",
+        "evidenceType": "official-publisher-page",
+        "evidenceUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+        "verifiedAt": "2026-07-14",
+        "evidenceSnapshot": "metadata/evidence/wikipedia-crispr-gene-editing.html",
+        "evidenceSha256": "fc76a0277b4ab7c623a3bbcfd323393dc1a36ddcba39aaf2506552448f251714",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+          "finalUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+          "redirectChain": [],
+          "retrievedAt": "2026-07-14T15:35:50.503Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 152376,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Coursewerk Demo Builder"
+          },
+          "capturedAt": "2026-07-14T15:35:50.503Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "processUseReview": {
+          "schemaVersion": 1,
+          "scannedAt": "2026-07-14T15:35:50.503Z",
+          "status": "no-notice-detected",
+          "legalEffectDetermined": false,
+          "notices": []
+        },
+        "preflightReceipt": "metadata/preflight/wikipedia-dna-repair.json",
+        "preflightReceiptSha256": "6c335adef13df91b0933e148d1f6ccfee9983e1ae0c29aecb294ef79a29a3ccd"
+      },
+      "requiredAttribution": {
+        "textIncludes": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/DNA_repair",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modificationNotice": "Adapted and reorganized for this teaching resource.",
+        "placement": "metadata-and-relevant-deliverables"
+      }
+    }
+  ]
+}

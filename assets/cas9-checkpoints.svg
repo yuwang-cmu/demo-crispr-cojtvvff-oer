@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+  <title id="title">Cas9 target-recognition checkpoints</title>
+  <desc id="desc">Four cards show PAM sampling, local DNA opening, progressive guide pairing, and cleavage. A mismatch branch can stop or weaken progression, so specificity is probabilistic rather than an exact string lookup.</desc>
+  <rect width="1000" height="520" rx="28" fill="#f5f1e8"/>
+  <text x="55" y="67" font-family="Arial" font-size="30" font-weight="700" fill="#263238">Cas9 does not jump directly from guide to cut</text>
+  <g font-family="Arial" transform="translate(48 120)">
+    <g><rect width="205" height="230" rx="20" fill="#3e6f9e"/><text x="22" y="48" font-size="22" font-weight="700" fill="white">1 · sample PAMs</text><text x="22" y="88" font-size="18" fill="white">Cas9–RNA surveys</text><text x="22" y="116" font-size="18" fill="white">DNA for a compatible</text><text x="22" y="144" font-size="18" fill="white">adjacent motif.</text><circle cx="103" cy="190" r="21" fill="#f5f1e8"/><text x="91" y="198" font-size="21" fill="#3e6f9e">P</text></g>
+    <path d="M215 115 H250" stroke="#263238" stroke-width="4" marker-end="url(#a3)"/>
+    <g transform="translate(260)"><rect width="205" height="230" rx="20" fill="#2f6f5e"/><text x="22" y="48" font-size="22" font-weight="700" fill="white">2 · open locally</text><text x="22" y="88" font-size="18" fill="white">PAM binding favors</text><text x="22" y="116" font-size="18" fill="white">local strand separation</text><text x="22" y="144" font-size="18" fill="white">and pairing initiation.</text><path d="M55 190 q48 -48 96 0" fill="none" stroke="#f5f1e8" stroke-width="8"/></g>
+    <path d="M475 115 H510" stroke="#263238" stroke-width="4" marker-end="url(#a3)"/>
+    <g transform="translate(520)"><rect width="205" height="230" rx="20" fill="#7e9f76"/><text x="22" y="48" font-size="22" font-weight="700" fill="white">3 · extend pairing</text><text x="22" y="88" font-size="18" fill="white">An RNA–DNA hybrid</text><text x="22" y="116" font-size="18" fill="white">forms progressively;</text><text x="22" y="144" font-size="18" fill="white">mismatch effects vary.</text><path d="M50 185 h105" stroke="#f5f1e8" stroke-width="7" stroke-dasharray="12 8"/></g>
+    <path d="M735 115 H770" stroke="#263238" stroke-width="4" marker-end="url(#a3)"/>
+    <g transform="translate(780)"><rect width="170" height="230" rx="20" fill="#d46a55"/><text x="20" y="48" font-size="22" font-weight="700" fill="white">4 · activate</text><text x="20" y="88" font-size="18" fill="white">HNH and RuvC</text><text x="20" y="116" font-size="18" fill="white">domains cut</text><text x="20" y="144" font-size="18" fill="white">opposite strands.</text><path d="M70 175 l35 40 M105 175 l-35 40" stroke="white" stroke-width="9"/></g>
+  </g>
+  <path d="M570 370 V430 H420" fill="none" stroke="#d46a55" stroke-width="4" marker-end="url(#a3)"/>
+  <rect x="105" y="405" width="315" height="62" rx="15" fill="#d46a55" opacity=".16"/>
+  <text x="130" y="443" font-family="Arial" font-size="21" fill="#263238">mismatch or chromatin context → pause, reject, or cut less efficiently</text>
+  <defs><marker id="a3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6Z" fill="#263238"/></marker></defs>
+</svg>

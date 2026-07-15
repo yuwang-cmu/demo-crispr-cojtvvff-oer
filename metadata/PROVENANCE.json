@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "photo-bacteriophages",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/bacteriophages.jpg",
+      "usedIn": [
+        "study-guide/crispr-as-a-system.md",
+        "slides/crispr-as-a-system.md"
+      ],
+      "title": "Bacteriophages attached to a bacterial cell wall",
+      "creator": "Professor Graham Beards",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phage.jpg",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Professor Graham Beards, transmission electron micrograph of bacteriophages attached to a bacterial cell wall, via Wikimedia Commons, CC BY-SA 3.0; used without modification.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Phage.jpg",
+        "verifiedAt": "2026-07-14",
+        "evidenceSnapshot": "metadata/evidence/media-photo-bacteriophages.html",
+        "evidenceSha256": "931a8d84fa88d82b1014b4a3590c798d52a999e031a7f9c14c7a14b61ceb189a",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Phage.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Phage.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-07-14T15:39:51.064Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 93529,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Coursewerk Demo Builder"
+          },
+          "capturedAt": "2026-07-14T15:39:51.064Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "photo-loading-dna-gel",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/loading-dna-gel.jpg",
+      "usedIn": [
+        "study-guide/editing-genomes.md",
+        "slides/editing-genomes.md"
+      ],
+      "title": "NHGRI researcher loading DNA into a gel",
+      "creator": "Maggie Bartlett, NHGRI",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Load_DNA_Gel.jpg",
+      "license": "Public domain",
+      "attribution": "Maggie Bartlett/NHGRI, researcher Milton English loading DNA into a gel; U.S. federal government work, public domain; used without modification.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Load_DNA_Gel.jpg",
+        "verifiedAt": "2026-07-14",
+        "evidenceSnapshot": "metadata/evidence/media-photo-loading-dna-gel.html",
+        "evidenceSha256": "a9f2581bfe81627265b330d5b269461c7a860d3433e599a92f05702ce3518fb2",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Load_DNA_Gel.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Load_DNA_Gel.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-07-14T15:39:59.926Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 87166,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Coursewerk Demo Builder"
+          },
+          "capturedAt": "2026-07-14T15:39:59.926Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "photo-electrophoresis-equipment",
+      "type": "image",
+      "mediaKind": "photo",
+      "localPath": "assets/electrophoresis-equipment.jpg",
+      "usedIn": [
+        "study-guide/editing-genomes.md"
+      ],
+      "title": "Scientist using electrophoresis equipment",
+      "creator": "NIH / NIAMS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Electrophoresis_equipment.jpg",
+      "license": "Public domain",
+      "attribution": "NIH/NIAMS, Anastassia Tikhonova using electrophoresis equipment; U.S. federal government work, public domain; used without modification.",
+      "provenanceStatus": "verified",
+      "publicationStatus": "cleared",
+      "blockReason": null,
+      "rightsEvidence": {
+        "evidenceType": "official-media-description-page",
+        "evidenceUrl": "https://commons.wikimedia.org/wiki/File:Electrophoresis_equipment.jpg",
+        "verifiedAt": "2026-07-14",
+        "evidenceSnapshot": "metadata/evidence/media-photo-electrophoresis-equipment.html",
+        "evidenceSha256": "8f416f87986030820d35999a70a76510fd86b8819ef85b612804b44b3c70676d",
+        "evidenceRetrieval": {
+          "captureMode": "network",
+          "requestedUrl": "https://commons.wikimedia.org/wiki/File:Electrophoresis_equipment.jpg",
+          "finalUrl": "https://commons.wikimedia.org/wiki/File:Electrophoresis_equipment.jpg",
+          "redirectChain": [],
+          "retrievedAt": "2026-07-14T15:40:06.115Z",
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "byteLength": 83406,
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        },
+        "evidenceCapture": {
+          "operator": {
+            "type": "automation",
+            "name": "Coursewerk Demo Builder"
+          },
+          "capturedAt": "2026-07-14T15:40:06.115Z",
+          "tool": {
+            "name": "coursewerk",
+            "version": "v0.11.0"
+          }
+        }
+      }
+    },
+    {
+      "id": "fig-crispr-locus-memory",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/crispr-locus-memory.svg",
+      "usedIn": [
+        "study-guide/crispr-as-a-system.md",
+        "slides/crispr-as-a-system.md"
+      ],
+      "title": "CRISPR locus as a molecular memory record",
+      "creator": "Yu Wang",
+      "sourceUrl": null,
+      "license": "CC BY-SA 4.0",
+      "attribution": "Original accessible SVG diagram by Yu Wang for this AI-assisted Coursewerk package; explicitly schematic.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "fig-targeting-pam",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/targeting-pam.svg",
+      "usedIn": [
+        "study-guide/crispr-as-a-system.md",
+        "slides/crispr-as-a-system.md"
+      ],
+      "title": "Guide pairing and PAM-dependent target recognition",
+      "creator": "Yu Wang",
+      "sourceUrl": null,
+      "license": "CC BY-SA 4.0",
+      "attribution": "Original accessible SVG diagram by Yu Wang for this AI-assisted Coursewerk package; explicitly schematic.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "fig-cas9-checkpoints",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/cas9-checkpoints.svg",
+      "usedIn": [
+        "study-guide/crispr-as-a-system.md",
+        "slides/crispr-as-a-system.md"
+      ],
+      "title": "Cas9 target-recognition checkpoints",
+      "creator": "Yu Wang",
+      "sourceUrl": null,
+      "license": "CC BY-SA 4.0",
+      "attribution": "Original accessible SVG diagram by Yu Wang for this AI-assisted Coursewerk package; conceptual, not a structural model.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "fig-edit-to-outcome",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/edit-to-outcome.svg",
+      "usedIn": [
+        "study-guide/editing-genomes.md",
+        "slides/editing-genomes.md"
+      ],
+      "title": "From programmed DNA break to a distribution of repair outcomes",
+      "creator": "Yu Wang",
+      "sourceUrl": null,
+      "license": "CC BY-SA 4.0",
+      "attribution": "Original accessible SVG diagram by Yu Wang for this AI-assisted Coursewerk package; explicitly schematic.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "fig-delivery-tradeoffs",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/delivery-tradeoffs.svg",
+      "usedIn": [
+        "study-guide/editing-genomes.md",
+        "slides/editing-genomes.md"
+      ],
+      "title": "Delivery choices and their trade-offs",
+      "creator": "Yu Wang",
+      "sourceUrl": null,
+      "license": "CC BY-SA 4.0",
+      "attribution": "Original accessible SVG diagram by Yu Wang for this AI-assisted Coursewerk package; qualitative comparison, not measured data.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    },
+    {
+      "id": "fig-evidence-ladder",
+      "type": "image",
+      "mediaKind": "diagram",
+      "localPath": "assets/evidence-ladder.svg",
+      "usedIn": [
+        "study-guide/editing-genomes.md",
+        "slides/editing-genomes.md"
+      ],
+      "title": "Evidence ladder from molecular edit to supported biological claim",
+      "creator": "Yu Wang",
+      "sourceUrl": null,
+      "license": "CC BY-SA 4.0",
+      "attribution": "Original accessible SVG diagram by Yu Wang for this AI-assisted Coursewerk package.",
+      "provenanceStatus": "self-generated",
+      "publicationStatus": "cleared",
+      "blockReason": null
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "chapters": {
+    "crispr-as-a-system": {
+      "realImageDecision": "used",
+      "rationale": "A transmission electron micrograph of bacteriophages grounds CRISPR's natural role in an observable host-virus interaction before the chapter introduces symbolic molecular diagrams.",
+      "reviewedBy": "Coursewerk Demo Builder",
+      "reviewedAt": "2026-07-14"
+    },
+    "editing-genomes": {
+      "realImageDecision": "used",
+      "rationale": "Two laboratory photographs connect abstract editing outcomes to physical sample handling and electrophoretic validation while the diagrams explain causal mechanisms.",
+      "reviewedBy": "Coursewerk Demo Builder",
+      "reviewedAt": "2026-07-14"
+    }
+  }
+}
