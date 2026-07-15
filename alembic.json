@@ -42,5 +42,8 @@
   ],
   "unitTerm": "chapter",
   "theme": "beige-decent-2",
+  "themes": {
+    "slides": "sage"
+  },
   "createdAt": "2026-07-14T00:00:00Z"
 }
