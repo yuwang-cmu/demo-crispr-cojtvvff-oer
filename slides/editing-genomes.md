@@ -82,7 +82,7 @@ flowchart LR
 <!-- slide main-side 3/2 -->
 ## One lesion, several pathways
 <!-- @main -->
-![Targeted DNA lesion branching into multiple repair pathways and a mixed allele population](../assets/edit-to-outcome.svg =650x)
+![Targeted DNA lesion branching into multiple repair pathways and a mixed allele population](https://alembic.orz.how/d/doc-l4xqle1syvaf =650x)
 <!-- @side -->
 - NHEJ can be precise or mutagenic
 - MMEJ often yields patterned deletions
@@ -141,7 +141,7 @@ No programmed double-strand break ≠ no by-products or unintended effects.
 <!-- slide main-side 3/2 -->
 ## Three exposure profiles
 <!-- @main -->
-![Comparison of DNA, RNA, and RNP delivery trade-offs](../assets/delivery-tradeoffs.svg =650x)
+![Comparison of DNA, RNA, and RNP delivery trade-offs](https://alembic.orz.how/d/doc-0vzwjh1vbdpr =650x)
 <!-- @side -->
 - DNA: expression required
 - mRNA: transient translation
@@ -151,7 +151,7 @@ No programmed double-strand break ≠ no by-products or unintended effects.
 <!-- slide main-side 3/2 -->
 ## Measurements are physical
 <!-- @main -->
-![Researcher pipetting DNA into an electrophoresis gel](../assets/loading-dna-gel.jpg =520x)
+![Researcher pipetting DNA into an electrophoresis gel](https://alembic.orz.how/d/doc-bfmos4nfl7qg =520x)
 <!-- @side -->
 - sample preparation matters
 - every assay has resolution limits
@@ -163,7 +163,7 @@ No programmed double-strand break ≠ no by-products or unintended effects.
 <!-- slide main-side 3/2 -->
 ## Climb the evidence ladder
 <!-- @main -->
-![Evidence ladder from delivery through locus, function, phenotype, and causal claim](../assets/evidence-ladder.svg =650x)
+![Evidence ladder from delivery through locus, function, phenotype, and causal claim](https://alembic.orz.how/d/doc-vfqc3uude56x =650x)
 <!-- @side -->
 1. reagent delivery
 2. target-locus identity

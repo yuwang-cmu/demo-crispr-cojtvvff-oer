@@ -55,13 +55,13 @@ flowchart LR
 
 Bacteriophages infect bacteria, and mobile genetic elements move DNA between cells. Many bacteria and archaea contain CRISPR arrays: short repeated sequences separated by variable **spacers**. Nearby **cas** genes encode proteins used in acquisition, processing, or interference. A sequence in an invader that corresponds to a spacer is called a **protospacer**.
 
-![Transmission electron micrograph of many bacteriophages attached to a bacterial cell wall](../assets/bacteriophages.jpg)
+![Transmission electron micrograph of many bacteriophages attached to a bacterial cell wall](https://alembic.orz.how/d/doc-u0lmzufzh892)
 
 *Figure 1.1. Bacteriophages attached to a bacterial cell wall. Professor Graham Beards, via Wikimedia Commons, CC BY-SA 3.0; used without modification.*
 
 During **adaptation**, proteins including Cas1 and Cas2 can integrate a fragment derived from foreign nucleic acid as a new spacer. In many studied arrays, new spacers are preferentially added near a leader sequence. The array can therefore preserve some order of acquisition. But spacers can also be lost, duplicated, acquired with biases, or rendered ineffective when an invader changes. “Molecular memory” is useful only if we remember that it is incomplete and continually shaped by evolution.
 
-![Diagram showing a phage fragment becoming a new spacer near a CRISPR-array leader](../assets/crispr-locus-memory.svg)
+![Diagram showing a phage fragment becoming a new spacer near a CRISPR-array leader](https://alembic.orz.how/d/doc-g9rsmfe767h8)
 
 *Figure 1.2. A CRISPR array as an evolving sequence record. Original schematic by Yu Wang for this package.*
 
@@ -144,7 +144,7 @@ The preferred DNA sequence is changed because the pairing segment is different. 
 
 For the commonly used *Streptococcus pyogenes* Cas9, a target is typically considered beside a short PAM often written `5′-NGG-3′`, where `N` can be any base in that position. This is a specific example, not a universal CRISPR rule. Different Cas proteins recognize different motifs, and some CRISPR systems target RNA.
 
-![Diagram showing Cas9, two DNA strands, a guide-pairing region, and an adjacent PAM](../assets/targeting-pam.svg)
+![Diagram showing Cas9, two DNA strands, a guide-pairing region, and an adjacent PAM](https://alembic.orz.how/d/doc-xe09bqbh95sh)
 
 *Figure 1.3. PAM-dependent target recognition. Original schematic by Yu Wang.*
 
@@ -152,7 +152,7 @@ For the commonly used *Streptococcus pyogenes* Cas9, a target is typically consi
 
 Cas9 samples DNA for a compatible PAM, locally opens the duplex, and allows guide RNA to pair with one strand. Progressive pairing forms an RNA–DNA hybrid while the displaced DNA strand forms part of an R-loop. Structural changes position nuclease domains: HNH cuts the guide-complementary strand and RuvC cuts the other strand in the usual active-Cas9 model.
 
-![Four-stage diagram of PAM sampling, DNA opening, guide pairing, and nuclease activation](../assets/cas9-checkpoints.svg)
+![Four-stage diagram of PAM sampling, DNA opening, guide pairing, and nuclease activation](https://alembic.orz.how/d/doc-ug659aasmvvm)
 
 *Figure 1.4. Recognition as checkpoints rather than an exact string lookup. Original conceptual diagram by Yu Wang.*
 

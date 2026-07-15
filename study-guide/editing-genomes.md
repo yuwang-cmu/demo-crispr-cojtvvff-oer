@@ -89,7 +89,7 @@ They should verify that protein P is actually reduced or functionally impaired, 
 
 A nuclease-induced double-strand break recruits pathways that evolved to protect genomes, not to obey an engineer's desired sequence. **Non-homologous end joining (NHEJ)** can rejoin ends precisely or after processing that creates insertions or deletions. **Microhomology-mediated end joining (MMEJ)** aligns short matching regions and commonly produces deletions. **Homologous recombination or homology-directed repair (HDR)** can copy from a related template when the necessary template and cellular state are available.
 
-![Diagram branching from a targeted DNA lesion to several repair pathways and a mixed allele population](../assets/edit-to-outcome.svg)
+![Diagram branching from a targeted DNA lesion to several repair pathways and a mixed allele population](https://alembic.orz.how/d/doc-l4xqle1syvaf)
 
 *Figure 2.1. A programmed lesion leads to context-dependent repair outcomes. Original schematic by Yu Wang.*
 
@@ -125,23 +125,23 @@ The 90% figure collapses three different edited alleles. Their functional conseq
 
 Delivery is part of the mechanism. DNA expression constructs require transcription and translation and may sustain exposure. Messenger RNA plus guide RNA is transient but still requires translation. A preassembled ribonucleoprotein (RNP) can act quickly and then decay, but uptake and cargo constraints remain. Viral, lipid, nanoparticle, and physical methods differ across tissues and cell types. No delivery strategy is universally best.
 
-![Three-column comparison of DNA, RNA, and ribonucleoprotein delivery](../assets/delivery-tradeoffs.svg)
+![Three-column comparison of DNA, RNA, and ribonucleoprotein delivery](https://alembic.orz.how/d/doc-0vzwjh1vbdpr)
 
 *Figure 2.2. Delivery choices alter onset, duration, cargo, and stress. Original qualitative diagram by Yu Wang.*
 
 **Visual alternative:** DNA constructs, RNA plus guide, and preassembled RNP appear as three columns. Each lists onset, duration, expression, cargo, and uptake considerations. A footer says the choice depends on cell type, tissue, toxicity, scale, and claim.
 
-![NHGRI researcher using a pipette to load DNA into an electrophoresis gel](../assets/loading-dna-gel.jpg)
+![NHGRI researcher using a pipette to load DNA into an electrophoresis gel](https://alembic.orz.how/d/doc-bfmos4nfl7qg)
 
 *Figure 2.3. NHGRI researcher Milton English loading DNA into a gel. Maggie Bartlett/NHGRI; U.S. federal government work, public domain.*
 
 Electrophoresis makes one part of laboratory validation visible: biological samples are physical, measurements require preparation, and every readout has resolution limits. A band of an expected size is useful evidence, but it does not reveal every sequence or every cell. Amplicon sequencing, longer-read methods, protein assays, functional measurements, and orthogonal approaches answer different questions.
 
-![Scientist examining electrophoresis equipment in an NIH laboratory](../assets/electrophoresis-equipment.jpg)
+![Scientist examining electrophoresis equipment in an NIH laboratory](https://alembic.orz.how/d/doc-b1s80yksezi8)
 
 *Figure 2.4. Anastassia Tikhonova using electrophoresis equipment. NIH/NIAMS; U.S. federal government work, public domain.*
 
-![Six-step ladder from delivery and target sequence to phenotype and a causal claim](../assets/evidence-ladder.svg)
+![Six-step ladder from delivery and target sequence to phenotype and a causal claim](https://alembic.orz.how/d/doc-vfqc3uude56x)
 
 *Figure 2.5. An evidence ladder for genome-editing claims. Original diagram by Yu Wang.*
 

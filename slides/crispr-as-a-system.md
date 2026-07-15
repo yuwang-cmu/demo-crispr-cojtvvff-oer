@@ -54,7 +54,7 @@ flowchart LR
 <!-- slide main-side 3/2 -->
 ## Start with the biological pressure
 <!-- @main -->
-![Electron micrograph of bacteriophages attached to a bacterial cell wall](../assets/bacteriophages.jpg =500x)
+![Electron micrograph of bacteriophages attached to a bacterial cell wall](https://alembic.orz.how/d/doc-u0lmzufzh892 =500x)
 <!-- @side -->
 - phages inject nucleic acid
 - microbes face repeated invasion
@@ -66,7 +66,7 @@ flowchart LR
 <!-- slide main-side 3/2 -->
 ## Read the array
 <!-- @main -->
-![Phage fragment becoming a spacer near the array leader](../assets/crispr-locus-memory.svg =650x)
+![Phage fragment becoming a spacer near the array leader](https://alembic.orz.how/d/doc-g9rsmfe767h8 =650x)
 <!-- @side -->
 - repeats recur
 - spacers vary
@@ -136,7 +136,7 @@ flowchart LR
 <!-- slide main-side 3/2 -->
 ## PAM beside the target
 <!-- @main -->
-![Cas9 beside double-stranded DNA, a guide-pairing region, and adjacent PAM](../assets/targeting-pam.svg =660x)
+![Cas9 beside double-stranded DNA, a guide-pairing region, and adjacent PAM](https://alembic.orz.how/d/doc-xe09bqbh95sh =660x)
 <!-- @side -->
 - SpCas9 example: often `5′-NGG-3′`
 - PAM is adjacent to pairing region
@@ -146,7 +146,7 @@ flowchart LR
 <!-- slide main-side 3/2 -->
 ## Recognition progresses
 <!-- @main -->
-![Four checkpoints from PAM sampling through guide pairing to nuclease activation](../assets/cas9-checkpoints.svg =660x)
+![Four checkpoints from PAM sampling through guide pairing to nuclease activation](https://alembic.orz.how/d/doc-ug659aasmvvm =660x)
 <!-- @side -->
 1. sample PAM
 2. open DNA locally
